@@ -8438,11 +8438,11 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_solr.git",
-                "reference": "f0ee0b2f4ab5c75dd08d0003bdeff335b9be4c43"
+                "reference": "df8f42b1cbfe72507e1d54d53704338f1714d69f"
             },
             "require": {
                 "consolidation/annotated-command": "^2.12",
-                "drupal/core": "^8.7",
+                "drupal/core": "^8.7.7 || ^9",
                 "drupal/search_api": "~1.14",
                 "ext-dom": "*",
                 "ext-json": "*",
@@ -8453,7 +8453,6 @@
                 "zendframework/zend-stdlib": "^3.0.1"
             },
             "conflict": {
-                "drupal/core": "<8.7",
                 "drupal/search_api_solr_multilingual": "<3.0.0"
             },
             "require-dev": {
@@ -8478,8 +8477,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.8+0-dev",
-                    "datestamp": "1577979483",
+                    "version": "8.x-3.x-dev",
+                    "datestamp": "1580220221",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8528,7 +8527,7 @@
                 "issues": "https://www.drupal.org/project/issues/search_api_solr",
                 "irc": "https://drupalchat.me/channel/search"
             },
-            "time": "2020-01-28T14:01:05+00:00"
+            "time": "2020-01-28T18:01:24+00:00"
         },
         {
             "name": "drupal/select2",
