@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.133.16",
+            "version": "3.133.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "69836088f178890c16f47bc1c67ca36ebcad22f8"
+                "reference": "6f41bb144c415e89726eaad2ccdf4d0a54d6e7cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/69836088f178890c16f47bc1c67ca36ebcad22f8",
-                "reference": "69836088f178890c16f47bc1c67ca36ebcad22f8",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6f41bb144c415e89726eaad2ccdf4d0a54d6e7cf",
+                "reference": "6f41bb144c415e89726eaad2ccdf4d0a54d6e7cf",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-02-17T19:13:12+00:00"
+            "time": "2020-02-19T19:12:22+00:00"
         },
         {
             "name": "behat/behat",
@@ -9183,11 +9183,11 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/s3fs.git",
-                "reference": "f990c3045c00497afa3ac8078eb39dfe8b3da239"
+                "reference": "2e901c54ea70b19936563d7d3ca581b11864abbf"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.18",
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -9195,8 +9195,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha13+10-dev",
-                    "datestamp": "1568890088",
+                    "version": "8.x-3.0-alpha14+3-dev",
+                    "datestamp": "1582111443",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9218,10 +9218,6 @@
                     "homepage": "https://www.drupal.org/u/jansete"
                 },
                 {
-                    "name": "coredumperror",
-                    "homepage": "https://www.drupal.org/user/1140544"
-                },
-                {
                     "name": "jansete",
                     "homepage": "https://www.drupal.org/user/1358146"
                 },
@@ -9236,7 +9232,7 @@
                 "source": "https://git.drupalcode.org/project/s3fs",
                 "issues": "https://www.drupal.org/project/issues/s3fs"
             },
-            "time": "2020-02-12T14:41:52+00:00"
+            "time": "2020-02-19T11:23:34+00:00"
         },
         {
             "name": "drupal/s3fs_cors",
