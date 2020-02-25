@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.133.16",
+            "version": "3.133.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "69836088f178890c16f47bc1c67ca36ebcad22f8"
+                "reference": "3501468a7ef894703141d1c4d68caa3b914cbd96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/69836088f178890c16f47bc1c67ca36ebcad22f8",
-                "reference": "69836088f178890c16f47bc1c67ca36ebcad22f8",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3501468a7ef894703141d1c4d68caa3b914cbd96",
+                "reference": "3501468a7ef894703141d1c4d68caa3b914cbd96",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-02-17T19:13:12+00:00"
+            "time": "2020-02-24T19:15:07+00:00"
         },
         {
             "name": "behat/behat",
@@ -7668,20 +7668,20 @@
         },
         {
             "name": "drupal/layout_library",
-            "version": "1.0.0-beta1",
+            "version": "1.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_library.git",
-                "reference": "8.x-1.0-beta1"
+                "reference": "8.x-1.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_library-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "87f15b6efb4748d010282bffc30828c43793f57a"
+                "url": "https://ftp.drupal.org/files/projects/layout_library-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "dc0dd30247768d285bc5d9861982bdb3b452bb59"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -7689,8 +7689,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1",
-                    "datestamp": "1560804485",
+                    "version": "8.x-1.0-beta2",
+                    "datestamp": "1582217387",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -9183,11 +9183,11 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/s3fs.git",
-                "reference": "f990c3045c00497afa3ac8078eb39dfe8b3da239"
+                "reference": "2e901c54ea70b19936563d7d3ca581b11864abbf"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.18",
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -9195,8 +9195,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha13+10-dev",
-                    "datestamp": "1568890088",
+                    "version": "8.x-3.0-alpha14+3-dev",
+                    "datestamp": "1582111443",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9218,10 +9218,6 @@
                     "homepage": "https://www.drupal.org/u/jansete"
                 },
                 {
-                    "name": "coredumperror",
-                    "homepage": "https://www.drupal.org/user/1140544"
-                },
-                {
                     "name": "jansete",
                     "homepage": "https://www.drupal.org/user/1358146"
                 },
@@ -9236,7 +9232,7 @@
                 "source": "https://git.drupalcode.org/project/s3fs",
                 "issues": "https://www.drupal.org/project/issues/s3fs"
             },
-            "time": "2020-02-12T14:41:52+00:00"
+            "time": "2020-02-19T11:23:34+00:00"
         },
         {
             "name": "drupal/s3fs_cors",
@@ -10276,21 +10272,21 @@
         },
         {
             "name": "drupal/vbo_export",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/vbo_export.git",
-                "reference": "8.x-3.0"
+                "reference": "8.x-3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/vbo_export-8.x-3.0.zip",
-                "reference": "8.x-3.0",
-                "shasum": "6c6da0771fd61eec4659d329a921afbed9143c6f"
+                "url": "https://ftp.drupal.org/files/projects/vbo_export-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "0fffb9122d8d3dd1f1a35e73c452635d12e8957d"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "drupal/views_bulk_operations": "^2.0 | ^3.0",
+                "drupal/views_bulk_operations": "^3.5",
                 "phpoffice/phpspreadsheet": "^1.6"
             },
             "type": "drupal-module",
@@ -10299,8 +10295,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0",
-                    "datestamp": "1557928985",
+                    "version": "8.x-3.1",
+                    "datestamp": "1582576993",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10445,20 +10441,20 @@
         },
         {
             "name": "drupal/views_bulk_operations",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_bulk_operations.git",
-                "reference": "8.x-3.4"
+                "reference": "8.x-3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_bulk_operations-8.x-3.4.zip",
-                "reference": "8.x-3.4",
-                "shasum": "549eb149f82fbf30e975155a14cd7a0d4653dfe9"
+                "url": "https://ftp.drupal.org/files/projects/views_bulk_operations-8.x-3.5.zip",
+                "reference": "8.x-3.5",
+                "shasum": "c40b6f07023337256baa573c0e242b765bd6c551"
             },
             "require": {
-                "drupal/core": "~8.5"
+                "drupal/core": "~8.8"
             },
             "type": "drupal-module",
             "extra": {
@@ -10466,8 +10462,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.4",
-                    "datestamp": "1580924754",
+                    "version": "8.x-3.5",
+                    "datestamp": "1582575462",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10915,16 +10911,16 @@
         },
         {
             "name": "drush-ops/behat-drush-endpoint",
-            "version": "9.3.1",
+            "version": "9.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/behat-drush-endpoint.git",
-                "reference": "578aa5402b0cd5a0b0b577290e17e4eeec2835d3"
+                "reference": "234e1467f7e9e61a49af7774770f9dfda9e41089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/behat-drush-endpoint/zipball/578aa5402b0cd5a0b0b577290e17e4eeec2835d3",
-                "reference": "578aa5402b0cd5a0b0b577290e17e4eeec2835d3",
+                "url": "https://api.github.com/repos/drush-ops/behat-drush-endpoint/zipball/234e1467f7e9e61a49af7774770f9dfda9e41089",
+                "reference": "234e1467f7e9e61a49af7774770f9dfda9e41089",
                 "shasum": ""
             },
             "require": {
@@ -10946,7 +10942,7 @@
                 "Drush",
                 "testing"
             ],
-            "time": "2020-01-17T00:59:53+00:00"
+            "time": "2020-02-20T03:37:59+00:00"
         },
         {
             "name": "drush/drush",
@@ -13503,16 +13499,16 @@
         },
         {
             "name": "scssphp/scssphp",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scssphp/scssphp.git",
-                "reference": "e2dadd21ef6188f038aaf72cd2d55d0e1b522741"
+                "reference": "20d661952d19d4d75508180c453a594423b4f10b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/e2dadd21ef6188f038aaf72cd2d55d0e1b522741",
-                "reference": "e2dadd21ef6188f038aaf72cd2d55d0e1b522741",
+                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/20d661952d19d4d75508180c453a594423b4f10b",
+                "reference": "20d661952d19d4d75508180c453a594423b4f10b",
                 "shasum": ""
             },
             "require": {
@@ -13560,7 +13556,7 @@
                 "scss",
                 "stylesheet"
             ],
-            "time": "2020-01-31T16:45:58+00:00"
+            "time": "2020-02-20T16:44:03+00:00"
         },
         {
             "name": "solarium/solarium",
