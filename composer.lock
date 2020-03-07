@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.133.29",
+            "version": "3.133.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ec8f628041e0d1de4fad76ac041c6025bd38d2da"
+                "reference": "330a696c1f1de0267921f732602e55fb3ddfd550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ec8f628041e0d1de4fad76ac041c6025bd38d2da",
-                "reference": "ec8f628041e0d1de4fad76ac041c6025bd38d2da",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/330a696c1f1de0267921f732602e55fb3ddfd550",
+                "reference": "330a696c1f1de0267921f732602e55fb3ddfd550",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-03-04T19:10:59+00:00"
+            "time": "2020-03-06T19:16:46+00:00"
         },
         {
             "name": "behat/behat",
@@ -7261,17 +7261,17 @@
         },
         {
             "name": "drupal/hax",
-            "version": "3.3.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/hax.git",
-                "reference": "8.x-3.3"
+                "reference": "8.x-3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/hax-8.x-3.3.zip",
-                "reference": "8.x-3.3",
-                "shasum": "c6579cf856bb4d1d8645838e7ea1a396562e996b"
+                "url": "https://ftp.drupal.org/files/projects/hax-8.x-3.5.zip",
+                "reference": "8.x-3.5",
+                "shasum": "c21f3d730427069f35346c274889676e9be71d30"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -7282,8 +7282,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.3",
-                    "datestamp": "1583353394",
+                    "version": "8.x-3.5",
+                    "datestamp": "1583524717",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8489,21 +8489,20 @@
         },
         {
             "name": "drupal/media_parent_entity_link",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_parent_entity_link.git",
-                "reference": "8.x-1.0-beta2"
+                "reference": "8.x-1.0-beta3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_parent_entity_link-8.x-1.0-beta2.zip",
-                "reference": "8.x-1.0-beta2",
-                "shasum": "1f2293dd4699248315d550db9f240c57e07dce02"
+                "url": "https://ftp.drupal.org/files/projects/media_parent_entity_link-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "afc0b2f74aedef269adf4eb26d71c8783e6df00c"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "drupal/media": "*"
+                "drupal/core": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -8511,8 +8510,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta2",
-                    "datestamp": "1567432685",
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1583508593",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -9427,7 +9426,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-beta9",
-                    "datestamp": "1570540105",
+                    "datestamp": "1570108084",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -17842,16 +17841,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9"
+                "reference": "451c3cd1418cf640de218914901e51b064abb093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/451c3cd1418cf640de218914901e51b064abb093",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093",
                 "shasum": ""
             },
             "require": {
@@ -17901,7 +17900,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2020-01-20T15:57:02+00:00"
+            "time": "2020-03-05T15:02:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
