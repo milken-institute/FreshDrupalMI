@@ -9451,7 +9451,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-beta9",
-                    "datestamp": "1570540105",
+                    "datestamp": "1570108084",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -11037,6 +11037,10 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "Graber",
+                    "homepage": "https://www.drupal.org/user/1599440"
+                },
                 {
                     "name": "JordiK",
                     "homepage": "https://www.drupal.org/user/3472907"
@@ -14368,32 +14372,31 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.9.12",
+            "version": "v0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "90da7f37568aee36b116a030c5f99c915267edd4"
+                "reference": "e361c8b7e5114534078e0ce04ddc442b39018a3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/90da7f37568aee36b116a030c5f99c915267edd4",
-                "reference": "90da7f37568aee36b116a030c5f99c915267edd4",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/e361c8b7e5114534078e0ce04ddc442b39018a3c",
+                "reference": "e361c8b7e5114534078e0ce04ddc442b39018a3c",
                 "shasum": ""
             },
             "require": {
                 "dnoegel/php-xdg-base-dir": "0.1.*",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
-                "jakub-onderka/php-console-highlighter": "0.3.*|0.4.*",
-                "nikic/php-parser": "~1.3|~2.0|~3.0|~4.0",
-                "php": ">=5.4.0",
-                "symfony/console": "~2.3.10|^2.4.2|~3.0|~4.0|~5.0",
-                "symfony/var-dumper": "~2.7|~3.0|~4.0|~5.0"
+                "jakub-onderka/php-console-highlighter": "0.4.*|0.3.*",
+                "nikic/php-parser": "~4.0|~3.0|~2.0|~1.3",
+                "php": "^8.0 || ^7.0 || ^5.5.9",
+                "symfony/console": "~5.0|~4.0|~3.0|^2.4.2|~2.3.10",
+                "symfony/var-dumper": "~5.0|~4.0|~3.0|~2.7"
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.2",
-                "hoa/console": "~2.15|~3.16",
-                "phpunit/phpunit": "~4.8.35|~5.0|~6.0|~7.0"
+                "hoa/console": "~3.16|~2.15"
             },
             "suggest": {
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
@@ -14408,7 +14411,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.9.x-dev"
+                    "dev-master": "0.10.x-dev"
                 }
             },
             "autoload": {
@@ -14438,7 +14441,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2019-12-06T14:19:43+00:00"
+            "time": "2020-03-15T22:52:37+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -19182,6 +19185,5 @@
         "ext-json": "*",
         "ext-mbstring": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
