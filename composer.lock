@@ -8977,7 +8977,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/migrate_media_handler.git",
-                "reference": "3189125f369a240946967aba7e9f49760f9e90b6"
+                "reference": "d055bbb0e725caf7d3588c420443c59471ea10ce"
             },
             "require": {
                 "drupal/core": "*"
@@ -8988,8 +8988,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc2+6-dev",
-                    "datestamp": "1590185215",
+                    "version": "8.x-1.0-rc2+8-dev",
+                    "datestamp": "1590530568",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9011,7 +9011,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/migrate_media_handler"
             },
-            "time": "2020-05-26T18:22:59+00:00"
+            "time": "2020-05-26T22:02:31+00:00"
         },
         {
             "name": "drupal/migrate_plus",
