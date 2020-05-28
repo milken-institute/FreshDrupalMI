@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.138.8",
+            "version": "3.138.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bc3d77e84d1589c9536f94043622bf56d1d68809"
+                "reference": "aaee8d1639e0f92a9617c4842c4fb8e527281d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bc3d77e84d1589c9536f94043622bf56d1d68809",
-                "reference": "bc3d77e84d1589c9536f94043622bf56d1d68809",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/aaee8d1639e0f92a9617c4842c4fb8e527281d2a",
+                "reference": "aaee8d1639e0f92a9617c4842c4fb8e527281d2a",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-05-26T18:10:59+00:00"
+            "time": "2020-05-27T18:13:35+00:00"
         },
         {
             "name": "behat/behat",
@@ -2236,20 +2236,20 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "382e7f4db9a12dc6c19431743a2b096041bcdd62"
+                "reference": "35a4a70cd94e09e2259dfae7488afc6b474ecbd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/382e7f4db9a12dc6c19431743a2b096041bcdd62",
-                "reference": "382e7f4db9a12dc6c19431743a2b096041bcdd62",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/35a4a70cd94e09e2259dfae7488afc6b474ecbd3",
+                "reference": "35a4a70cd94e09e2259dfae7488afc6b474ecbd3",
                 "shasum": ""
             },
             "require": {
-                "php": "~7.1"
+                "php": "~7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/common": ">2.2,<2.4"
@@ -2314,7 +2314,21 @@
                 "redis",
                 "xcache"
             ],
-            "time": "2019-11-29T15:36:20+00:00"
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcache",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-27T16:24:54+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -5953,29 +5967,26 @@
         },
         {
             "name": "drupal/easy_install",
-            "version": "10.2.0",
+            "version": "10.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/easy_install.git",
-                "reference": "8.x-10.2"
+                "reference": "8.x-10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/easy_install-8.x-10.2.zip",
-                "reference": "8.x-10.2",
-                "shasum": "76653dc0e9615ef264684d264b1ee5faea6670dd"
+                "url": "https://ftp.drupal.org/files/projects/easy_install-8.x-10.4.zip",
+                "reference": "8.x-10.4",
+                "shasum": "399bbb506ad23bb91b8f41922e6d9c1cd39cf6df"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-10.x": "10.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-10.2",
-                    "datestamp": "1581598051",
+                    "version": "8.x-10.4",
+                    "datestamp": "1590560253",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8977,10 +8988,15 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/migrate_media_handler.git",
-                "reference": "3189125f369a240946967aba7e9f49760f9e90b6"
+                "reference": "29e6f0a8fe7837b8c7fd90923cebc21a4ce6a147"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "*",
+                "drupal/migrate_plus": "^4.2 || ^5",
+                "drupal/migrate_tools": "^4.1 || ^5"
+            },
+            "suggest": {
+                "drupal/entity_embed": "Allows entities to be embedded using a text editor."
             },
             "type": "drupal-module",
             "extra": {
@@ -8988,8 +9004,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc2+6-dev",
-                    "datestamp": "1590185215",
+                    "version": "8.x-1.0-rc3+1-dev",
+                    "datestamp": "1590599337",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8998,7 +9014,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -9006,12 +9022,16 @@
                     "homepage": "https://www.drupal.org/user/165878"
                 }
             ],
-            "description": "Converts inline image and document references, and file fields, to media entity references.",
+            "description": "Migrates Drupal 7 WYSIWYG embeds and file fields to Drupal 8 media.",
             "homepage": "https://www.drupal.org/project/migrate_media_handler",
+            "keywords": [
+                "Drupal"
+            ],
             "support": {
-                "source": "https://git.drupalcode.org/project/migrate_media_handler"
+                "source": "https://git.drupalcode.org/project/migrate_media_handler",
+                "issues": "https://www.drupal.org/project/issues/migrate_media_handler"
             },
-            "time": "2020-05-26T18:22:59+00:00"
+            "time": "2020-05-27T17:08:40+00:00"
         },
         {
             "name": "drupal/migrate_plus",
@@ -12084,29 +12104,26 @@
         },
         {
             "name": "drupal/workflow",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/workflow.git",
-                "reference": "8.x-1.1"
+                "reference": "8.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/workflow-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "97c2efcab4d59beb2ca80a7b776435ed9d135ab8"
+                "url": "https://ftp.drupal.org/files/projects/workflow-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "b734448f015f56721aa195a719def5890ed342f9"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1525039380",
+                    "version": "8.x-1.2",
+                    "datestamp": "1590588455",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13045,16 +13062,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.9",
+            "version": "5.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "44c6787311242a979fa15c704327c20e7221a0e4"
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/44c6787311242a979fa15c704327c20e7221a0e4",
-                "reference": "44c6787311242a979fa15c704327c20e7221a0e4",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
                 "shasum": ""
             },
             "require": {
@@ -13107,7 +13124,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2019-09-25T14:49:45+00:00"
+            "time": "2020-05-27T16:41:55+00:00"
         },
         {
             "name": "ksubileau/color-thief-php",
@@ -13825,16 +13842,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "2c17d16d8887579ae1c0898ff94a3668997fd3eb"
+                "reference": "488f58378bba71767e7831c83f9e0fa808bf83b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/2c17d16d8887579ae1c0898ff94a3668997fd3eb",
-                "reference": "2c17d16d8887579ae1c0898ff94a3668997fd3eb",
+                "url": "https://api.github.com/repos/nette/utils/zipball/488f58378bba71767e7831c83f9e0fa808bf83b9",
+                "reference": "488f58378bba71767e7831c83f9e0fa808bf83b9",
                 "shasum": ""
             },
             "require": {
@@ -13847,7 +13864,7 @@
             },
             "suggest": {
                 "ext-gd": "to use Image",
-                "ext-iconv": "to use Strings::webalize() and toAscii()",
+                "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
                 "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
                 "ext-json": "to use Nette\\Utils\\Json",
                 "ext-mbstring": "to use Strings::lower() etc...",
@@ -13899,7 +13916,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2020-02-09T14:10:55+00:00"
+            "time": "2020-05-27T09:58:51+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -15205,16 +15222,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "6.3.7",
+            "version": "6.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "1f7bd4b5c11cf4a164a400c937483785b0f4eb9e"
+                "reference": "500f55b5e2dee1dcef8e88f2038990acdba29f1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/1f7bd4b5c11cf4a164a400c937483785b0f4eb9e",
-                "reference": "1f7bd4b5c11cf4a164a400c937483785b0f4eb9e",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/500f55b5e2dee1dcef8e88f2038990acdba29f1c",
+                "reference": "500f55b5e2dee1dcef8e88f2038990acdba29f1c",
                 "shasum": ""
             },
             "require": {
@@ -15258,7 +15275,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-25T13:39:15+00:00"
+            "time": "2020-05-27T06:28:47+00:00"
         },
         {
             "name": "solarium/solarium",
