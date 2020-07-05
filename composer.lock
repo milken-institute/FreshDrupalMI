@@ -12067,7 +12067,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_slideshow.git",
-                "reference": "bf64961f19373d2be9e712d65b74456227c42656"
+                "reference": "f0f173434216c4ff03c5be626c496e1c640f9cd4"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -12078,8 +12078,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.7+3-dev",
-                    "datestamp": "1592411293",
+                    "version": "8.x-4.7+4-dev",
+                    "datestamp": "1592411423",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -12116,7 +12116,7 @@
                 "issues": "https://www.drupal.org/project/issues/views_slideshow",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2020-06-17T16:29:59+00:00"
+            "time": "2020-07-04T11:30:48+00:00"
         },
         {
             "name": "drupal/viewsreference",
