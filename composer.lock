@@ -7372,7 +7372,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fontawesome.git",
-                "reference": "82dc716fb8e95a77a59ff37b1029225eb4c40b7e"
+                "reference": "5cac6dbb09d1120c79dd48c65ef9576abd169cc1"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -7383,8 +7383,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.16+8-dev",
-                    "datestamp": "1593707007",
+                    "version": "8.x-2.17+1-dev",
+                    "datestamp": "1594655500",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7423,7 +7423,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/fontawesome"
             },
-            "time": "2020-07-13T15:52:39+00:00"
+            "time": "2020-07-16T20:29:24+00:00"
         },
         {
             "name": "drupal/form_options_attributes",
@@ -8078,10 +8078,10 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/jsonapi_extras.git",
-                "reference": "6b9dbaa4dcd0b648bb7e372d904619b6838a8178"
+                "reference": "68ebbcada045fb9cde3d0732d3492f9508bd280c"
             },
             "require": {
-                "drupal/core": "~8.0",
+                "drupal/core": "^8 || ^9",
                 "drupal/jsonapi": "*",
                 "e0ipso/shaper": "^1"
             },
@@ -8094,8 +8094,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.13+1-dev",
-                    "datestamp": "1585435787",
+                    "version": "8.x-3.14+3-dev",
+                    "datestamp": "1594926248",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8104,12 +8104,12 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
                     "name": "Mateu Aguiló Bosch",
-                    "homepage": "https://www.drupal.org/user/550110",
+                    "homepage": "https://www.drupal.org/user/3366066",
                     "email": "mateu.aguilo.bosch@gmail.com"
                 },
                 {
@@ -8119,6 +8119,10 @@
                 {
                     "name": "Karel Majzlik",
                     "homepage": "https://www.drupal.org/u/karlos007"
+                },
+                {
+                    "name": "Björn Brala",
+                    "homepage": "https://www.drupal.org/u/bbrala"
                 }
             ],
             "description": "JSON:API Extras provides a means to override and provide limited configurations to the default zero-configuration implementation provided by the JSON:API module.",
@@ -8126,7 +8130,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/jsonapi_extras"
             },
-            "time": "2020-03-28T22:51:30+00:00"
+            "time": "2020-07-16T19:03:23+00:00"
         },
         {
             "name": "drupal/jsonapi_image_styles",
