@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.147.7",
+            "version": "3.147.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0d637e7cbc795996a75531ed8dd2272f2672b2f2"
+                "reference": "da548c59c87b0a54d2cd1a43e5e149e56ca2569b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0d637e7cbc795996a75531ed8dd2272f2672b2f2",
-                "reference": "0d637e7cbc795996a75531ed8dd2272f2672b2f2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/da548c59c87b0a54d2cd1a43e5e149e56ca2569b",
+                "reference": "da548c59c87b0a54d2cd1a43e5e149e56ca2569b",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-28T18:13:27+00:00"
+            "time": "2020-07-30T18:13:38+00:00"
         },
         {
             "name": "behat/behat",
@@ -10149,7 +10149,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/paragraphs.git",
-                "reference": "2eb93aa0b8e12a07fc75e6cb7e82702e03f88fcb"
+                "reference": "d39f66167d6de1ed36c5c3f992bb5f713d909966"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -10177,8 +10177,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.12+2-dev",
-                    "datestamp": "1591219499",
+                    "version": "8.x-1.12+3-dev",
+                    "datestamp": "1593340799",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -10220,7 +10220,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/paragraphs"
             },
-            "time": "2020-06-28T10:39:42+00:00"
+            "time": "2020-07-30T21:01:01+00:00"
         },
         {
             "name": "drupal/paragraphs_browser",
@@ -12839,7 +12839,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_slideshow.git",
-                "reference": "f0f173434216c4ff03c5be626c496e1c640f9cd4"
+                "reference": "07195a21e5cc0e3d7c261acf33f92e0805b15f0d"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -12850,8 +12850,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.7+4-dev",
-                    "datestamp": "1592411423",
+                    "version": "8.x-4.7+5-dev",
+                    "datestamp": "1593862276",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -12888,7 +12888,7 @@
                 "issues": "https://www.drupal.org/project/issues/views_slideshow",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2020-07-04T11:30:48+00:00"
+            "time": "2020-07-29T19:35:46+00:00"
         },
         {
             "name": "drupal/viewsreference",
@@ -13702,16 +13702,16 @@
         },
         {
             "name": "enyo/dropzone",
-            "version": "v5.7.1",
+            "version": "v5.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/enyo/dropzone.git",
-                "reference": "b2a50bc61c55ff4f22663a6754020d967305c973"
+                "reference": "78424e9c97b569e698cc9175e9bc424168219162"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/enyo/dropzone/zipball/b2a50bc61c55ff4f22663a6754020d967305c973",
-                "reference": "b2a50bc61c55ff4f22663a6754020d967305c973",
+                "url": "https://api.github.com/repos/enyo/dropzone/zipball/78424e9c97b569e698cc9175e9bc424168219162",
+                "reference": "78424e9c97b569e698cc9175e9bc424168219162",
                 "shasum": ""
             },
             "type": "library",
@@ -13734,7 +13734,21 @@
                 "file upload",
                 "upload"
             ],
-            "time": "2020-06-04T08:25:15+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/[user1",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/enyo] # Replace with up to 4 GitHub Sponsors-enabled usernames e.g.",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/user2",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-07-23T12:58:26+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -16806,16 +16820,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.33",
+            "version": "0.12.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "46e698a0452526a05c4a351d7c47c4b8c37a548d"
+                "reference": "ad75388d71fb0b4a954f71a852fd989915a51cb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/46e698a0452526a05c4a351d7c47c4b8c37a548d",
-                "reference": "46e698a0452526a05c4a351d7c47c4b8c37a548d",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ad75388d71fb0b4a954f71a852fd989915a51cb7",
+                "reference": "ad75388d71fb0b4a954f71a852fd989915a51cb7",
                 "shasum": ""
             },
             "require": {
@@ -16858,7 +16872,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-19T22:10:11+00:00"
+            "time": "2020-07-30T15:31:10+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -18138,20 +18152,20 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v1.1.8",
+            "version": "v1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "f51bca9de06b7a25b19a4155da7bebad099a5def"
+                "reference": "8c4de0cf797f2eba4334a1d7a9b788c1b30a7579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/f51bca9de06b7a25b19a4155da7bebad099a5def",
-                "reference": "f51bca9de06b7a25b19a4155da7bebad099a5def",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/8c4de0cf797f2eba4334a1d7a9b788c1b30a7579",
+                "reference": "8c4de0cf797f2eba4334a1d7a9b788c1b30a7579",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "psr/cache": "^1.0",
                 "psr/container": "^1.0"
             },
@@ -18211,7 +18225,21 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-11-07T12:44:51+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-29T14:46:19+00:00"
         },
         {
             "name": "symfony/css-selector",
