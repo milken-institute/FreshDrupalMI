@@ -689,7 +689,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -11822,7 +11822,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api.git",
-                "reference": "a23395490f19c9d5fbcc036cb0d4e005e07eef93"
+                "reference": "ff612f8714ea90f9fd1e46d2e5da5fc378baa775"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -11847,7 +11847,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1596998397",
+                    "datestamp": "1597406886",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -11884,7 +11884,7 @@
                 "issues": "https://www.drupal.org/project/issues/search_api",
                 "irc": "irc://irc.freenode.org/drupal-search-api"
             },
-            "time": "2020-08-14T12:07:41+00:00"
+            "time": "2020-08-29T20:42:26+00:00"
         },
         {
             "name": "drupal/search_api_attachments",
