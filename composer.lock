@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.151.5",
+            "version": "3.151.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d38bd349560bbbb25b0991950c858fabff1280b3"
+                "reference": "b34231eb116dd7dada37f6d30d88343a992c9c3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d38bd349560bbbb25b0991950c858fabff1280b3",
-                "reference": "d38bd349560bbbb25b0991950c858fabff1280b3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b34231eb116dd7dada37f6d30d88343a992c9c3e",
+                "reference": "b34231eb116dd7dada37f6d30d88343a992c9c3e",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-09-02T18:18:35+00:00"
+            "time": "2020-09-03T18:17:59+00:00"
         },
         {
             "name": "behat/behat",
@@ -4869,16 +4869,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.4",
+            "version": "8.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "1de88703485c755d0db7420156432306a0acad8f"
+                "reference": "c9b9643663b80f02c038f9dea15b8717a22c3339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/1de88703485c755d0db7420156432306a0acad8f",
-                "reference": "1de88703485c755d0db7420156432306a0acad8f",
+                "url": "https://api.github.com/repos/drupal/core/zipball/c9b9643663b80f02c038f9dea15b8717a22c3339",
+                "reference": "c9b9643663b80f02c038f9dea15b8717a22c3339",
                 "shasum": ""
             },
             "require": {
@@ -5102,7 +5102,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2020-09-02T11:37:12+00:00"
+            "time": "2020-09-03T21:07:45+00:00"
         },
         {
             "name": "drupal/crop",
