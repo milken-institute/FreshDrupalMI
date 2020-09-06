@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.151.5",
+            "version": "3.152.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d38bd349560bbbb25b0991950c858fabff1280b3"
+                "reference": "c5b43109dc0ecf77c4a18a8504ca3023f705b306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d38bd349560bbbb25b0991950c858fabff1280b3",
-                "reference": "d38bd349560bbbb25b0991950c858fabff1280b3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c5b43109dc0ecf77c4a18a8504ca3023f705b306",
+                "reference": "c5b43109dc0ecf77c4a18a8504ca3023f705b306",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-09-02T18:18:35+00:00"
+            "time": "2020-09-04T18:16:32+00:00"
         },
         {
             "name": "behat/behat",
@@ -689,7 +689,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -704,16 +704,16 @@
         },
         {
             "name": "bower-asset/jquery-simple-color",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:recurser/jquery-simple-color.git",
-                "reference": "ebe0b2c0db639584e81499bd29d6619abb9a2599"
+                "reference": "a78212bc7df313fbc3e5d839326aa3668c63edb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/recurser/jquery-simple-color/zipball/ebe0b2c0db639584e81499bd29d6619abb9a2599",
-                "reference": "ebe0b2c0db639584e81499bd29d6619abb9a2599"
+                "url": "https://api.github.com/repos/recurser/jquery-simple-color/zipball/a78212bc7df313fbc3e5d839326aa3668c63edb3",
+                "reference": "a78212bc7df313fbc3e5d839326aa3668c63edb3"
             },
             "type": "bower-asset",
             "license": [
@@ -3972,20 +3972,21 @@
         },
         {
             "name": "drupal/coder",
-            "version": "8.3.9",
+            "version": "8.3.10",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/coder.git",
-                "reference": "d51e0b8c6561e21c0545d04b5410a7bed7ee7c6b"
+                "reference": "e1d71c6bb75b94f9ed00dceb2f4f6cb7e044723d"
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": ">=7.0.8",
-                "squizlabs/php_codesniffer": "^3.5.5",
+                "sirbrillig/phpcs-variable-analysis": "^2.8",
+                "squizlabs/php_codesniffer": "^3.5.6",
                 "symfony/yaml": ">=2.0.5"
             },
             "require-dev": {
-                "phpstan/phpstan": "^0.12.5",
+                "phpstan/phpstan": "^0.12.31",
                 "phpunit/phpunit": "^6.0 || ^7.0"
             },
             "type": "phpcodesniffer-standard",
@@ -3997,7 +3998,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "description": "Coder is a library to review Drupal code.",
             "homepage": "https://www.drupal.org/project/coder",
@@ -4006,7 +4007,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-05-08T10:20:59+00:00"
+            "time": "2020-09-03T19:59:53+00:00"
         },
         {
             "name": "drupal/color_field",
@@ -4869,16 +4870,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.4",
+            "version": "8.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "1de88703485c755d0db7420156432306a0acad8f"
+                "reference": "c9b9643663b80f02c038f9dea15b8717a22c3339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/1de88703485c755d0db7420156432306a0acad8f",
-                "reference": "1de88703485c755d0db7420156432306a0acad8f",
+                "url": "https://api.github.com/repos/drupal/core/zipball/c9b9643663b80f02c038f9dea15b8717a22c3339",
+                "reference": "c9b9643663b80f02c038f9dea15b8717a22c3339",
                 "shasum": ""
             },
             "require": {
@@ -5102,7 +5103,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2020-09-02T11:37:12+00:00"
+            "time": "2020-09-03T21:07:45+00:00"
         },
         {
             "name": "drupal/crop",
@@ -15905,16 +15906,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.6.0",
+            "version": "9.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "7351a74625601914409b42b32cabb91a93773b7b"
+                "reference": "634322df4aed210fdfbb7c94e434dc860da733d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/7351a74625601914409b42b32cabb91a93773b7b",
-                "reference": "7351a74625601914409b42b32cabb91a93773b7b",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/634322df4aed210fdfbb7c94e434dc860da733d9",
+                "reference": "634322df4aed210fdfbb7c94e434dc860da733d9",
                 "shasum": ""
             },
             "require": {
@@ -15924,11 +15925,12 @@
             },
             "require-dev": {
                 "ext-curl": "*",
+                "ext-dom": "*",
                 "friendsofphp/php-cs-fixer": "^2.16",
                 "phpstan/phpstan": "^0.12.0",
                 "phpstan/phpstan-phpunit": "^0.12.0",
                 "phpstan/phpstan-strict-rules": "^0.12.0",
-                "phpunit/phpunit": "^8.0"
+                "phpunit/phpunit": "^8.5"
             },
             "suggest": {
                 "ext-dom": "Required to use the XMLConverter and or the HTMLConverter classes",
@@ -15978,7 +15980,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-03-17T15:15:35+00:00"
+            "time": "2020-09-05T08:40:12+00:00"
         },
         {
             "name": "league/event",
@@ -18268,6 +18270,54 @@
                 "stylesheet"
             ],
             "time": "2020-08-26T20:47:29+00:00"
+        },
+        {
+            "name": "sirbrillig/phpcs-variable-analysis",
+            "version": "v2.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
+                "reference": "00b4fa3130faa26762c929989e3d958086c627f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/00b4fa3130faa26762c929989e3d958086c627f1",
+                "reference": "00b4fa3130faa26762c929989e3d958086c627f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "squizlabs/php_codesniffer": "^3.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4 || ^0.5 || ^0.6",
+                "limedeck/phpunit-detailed-printer": "^3.1 || ^4.0 || ^5.0",
+                "phpstan/phpstan": "^0.11.8",
+                "phpunit/phpunit": "^5.0 || ^6.5 || ^7.0 || ^8.0",
+                "sirbrillig/phpcs-import-detection": "^1.1"
+            },
+            "type": "phpcodesniffer-standard",
+            "autoload": {
+                "psr-4": {
+                    "VariableAnalysis\\": "VariableAnalysis/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sam Graham",
+                    "email": "php-codesniffer-variableanalysis@illusori.co.uk"
+                },
+                {
+                    "name": "Payton Swick",
+                    "email": "payton@foolord.com"
+                }
+            ],
+            "description": "A PHPCS sniff to detect problems with variables.",
+            "time": "2020-07-11T23:32:06+00:00"
         },
         {
             "name": "slevomat/coding-standard",
