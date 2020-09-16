@@ -211,5 +211,5 @@
     "yaml-import": "^2.0.0",
     "youtube": "^0.1.0"
   },
-  "devDependencies": { }
+  "devDependencies": {}
 }
