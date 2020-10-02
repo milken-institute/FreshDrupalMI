@@ -3443,7 +3443,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.0-beta4",
-                    "datestamp": "1595880679",
+                    "datestamp": "1595880636",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -5537,10 +5537,6 @@
                 {
                     "name": "mbm80",
                     "homepage": "https://www.drupal.org/user/3464809"
-                },
-                {
-                    "name": "mostepaniukvm",
-                    "homepage": "https://www.drupal.org/user/3440017"
                 }
             ],
             "description": "Render fields as custom elements.",
@@ -7660,8 +7656,8 @@
                     "version": "8.x-1.0",
                     "datestamp": "1568102885",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 },
                 "composer-exit-on-patch-failure": true,
@@ -7716,8 +7712,8 @@
                     "homepage": "https://www.drupal.org/user/1885838"
                 },
                 {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
+                    "name": "dasjo",
+                    "homepage": "https://www.drupal.org/user/228295"
                 }
             ],
             "description": "Facets Pretty Paths module.",
@@ -9016,8 +9012,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.15+7-dev",
-                    "datestamp": "1598170450",
+                    "version": "8.x-3.15+6-dev",
+                    "datestamp": "1597911880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9633,7 +9629,7 @@
                     "datestamp": "1594929046",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -14149,10 +14145,6 @@
                 {
                     "name": "mrded",
                     "homepage": "https://www.drupal.org/user/556088"
-                },
-                {
-                    "name": "shelane",
-                    "homepage": "https://www.drupal.org/user/2674989"
                 }
             ],
             "description": "Allows for different styles to be used in views to work with Bootstrap 4 components.",
