@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.158.6",
+            "version": "3.158.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4e912c1ae4d4b3538ada36ac1478f980f9bdf329"
+                "reference": "a492e9aac7cba87177c06095c4e5bc9adcb1e397"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4e912c1ae4d4b3538ada36ac1478f980f9bdf329",
-                "reference": "4e912c1ae4d4b3538ada36ac1478f980f9bdf329",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a492e9aac7cba87177c06095c4e5bc9adcb1e397",
+                "reference": "a492e9aac7cba87177c06095c4e5bc9adcb1e397",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-10-09T18:11:48+00:00"
+            "time": "2020-10-20T18:11:49+00:00"
         },
         {
             "name": "behat/behat",
@@ -4237,17 +4237,17 @@
         },
         {
             "name": "drupal/component",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/component.git",
-                "reference": "1.0.0-rc1"
+                "reference": "1.0.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/component-1.0.0-rc1.zip",
-                "reference": "1.0.0-rc1",
-                "shasum": "ad211017e289c2e7493695759d54ae6b658a3306"
+                "url": "https://ftp.drupal.org/files/projects/component-1.0.0-rc2.zip",
+                "reference": "1.0.0-rc2",
+                "shasum": "dc08b76339faa015151265e5828e50fa21eaa990"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -4255,8 +4255,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-rc1",
-                    "datestamp": "1601647470",
+                    "version": "1.0.0-rc2",
+                    "datestamp": "1602798265",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -5566,10 +5566,6 @@
                 {
                     "name": "mbm80",
                     "homepage": "https://www.drupal.org/user/3464809"
-                },
-                {
-                    "name": "mostepaniukvm",
-                    "homepage": "https://www.drupal.org/user/3440017"
                 }
             ],
             "description": "Render fields as custom elements.",
@@ -7422,7 +7418,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/entityqueue.git",
-                "reference": "d123753ec3d33329d055c520730526f2b559b4a0"
+                "reference": "f9c91a4cb804e47ef89512e2a51387888b220983"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -7433,8 +7429,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.1+2-dev",
-                    "datestamp": "1600848905",
+                    "version": "8.x-1.1+4-dev",
+                    "datestamp": "1603103067",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7468,7 +7464,7 @@
                 "issues": "https://www.drupal.org/project/issues/entityqueue",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2020-09-25T08:57:40+00:00"
+            "time": "2020-10-19T10:29:58+00:00"
         },
         {
             "name": "drupal/external_entities",
@@ -7689,8 +7685,8 @@
                     "version": "8.x-1.0",
                     "datestamp": "1568102885",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 },
                 "composer-exit-on-patch-failure": true,
@@ -7745,8 +7741,8 @@
                     "homepage": "https://www.drupal.org/user/1885838"
                 },
                 {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
+                    "name": "dasjo",
+                    "homepage": "https://www.drupal.org/user/228295"
                 }
             ],
             "description": "Facets Pretty Paths module.",
@@ -8150,7 +8146,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gatsby.git",
-                "reference": "37d000272195f8df1b6486e98676e0d9c44d46e9"
+                "reference": "38e3276532c87a473136d750a1c7ecc17d5742ce"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -8165,8 +8161,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc3+14-dev",
-                    "datestamp": "1602367810",
+                    "version": "8.x-1.0-rc3+15-dev",
+                    "datestamp": "1602604596",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -8200,7 +8196,7 @@
                 "source": "http://cgit.drupalcode.org/gatsby",
                 "issues": "https://www.drupal.org/project/issues/gatsby"
             },
-            "time": "2020-10-13T15:56:16+00:00"
+            "time": "2020-10-15T16:33:06+00:00"
         },
         {
             "name": "drupal/gin",
@@ -8208,7 +8204,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "3fb4db2b034c811153a1a91a18c4988cc3cbeb43"
+                "reference": "26171c9055c29ddf1a908c94693c8e35875f836a"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -8219,8 +8215,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha27+9-dev",
-                    "datestamp": "1602084364",
+                    "version": "8.x-3.0-alpha27+14-dev",
+                    "datestamp": "1603045577",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8258,7 +8254,7 @@
                     "url": "https://paypal.me/saschaeggi"
                 }
             ],
-            "time": "2020-10-07T19:51:09+00:00"
+            "time": "2020-10-18T18:49:56+00:00"
         },
         {
             "name": "drupal/gin_login",
@@ -8386,7 +8382,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/graphql.git",
-                "reference": "565312d76d046fcb644a346673835298d1130153"
+                "reference": "477dd467d0f7af5977d68d0f1fa161951fe0ef1c"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -8403,8 +8399,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.0-beta2+4-dev",
-                    "datestamp": "1599807787",
+                    "version": "8.x-4.0-beta2+7-dev",
+                    "datestamp": "1602943430",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8438,7 +8434,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/graphql"
             },
-            "time": "2020-09-24T16:31:33+00:00"
+            "time": "2020-10-18T17:49:25+00:00"
         },
         {
             "name": "drupal/hax",
@@ -9043,8 +9039,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.15+7-dev",
-                    "datestamp": "1598170450",
+                    "version": "8.x-3.15+6-dev",
+                    "datestamp": "1597911880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9764,7 +9760,7 @@
                     "datestamp": "1594929046",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -12507,17 +12503,17 @@
         },
         {
             "name": "drupal/search_api_solr",
-            "version": "4.1.6",
+            "version": "4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_solr.git",
-                "reference": "4.1.6"
+                "reference": "4.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_solr-4.1.6.zip",
-                "reference": "4.1.6",
-                "shasum": "b4310d0ebffa41eed4468169c2018c0645cdc59b"
+                "url": "https://ftp.drupal.org/files/projects/search_api_solr-4.1.7.zip",
+                "reference": "4.1.7",
+                "shasum": "82a933beaa164c80094dcc24ef24874484b6059f"
             },
             "require": {
                 "consolidation/annotated-command": "^2.12|^4.1",
@@ -12554,8 +12550,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.1.6",
-                    "datestamp": "1599576561",
+                    "version": "4.1.7",
+                    "datestamp": "1603086036",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -14294,10 +14290,6 @@
                 {
                     "name": "mrded",
                     "homepage": "https://www.drupal.org/user/556088"
-                },
-                {
-                    "name": "shelane",
-                    "homepage": "https://www.drupal.org/user/2674989"
                 }
             ],
             "description": "Allows for different styles to be used in views to work with Bootstrap 4 components.",
@@ -16757,16 +16749,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.5.5",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "45832dfed6007b984c0d40addfac48d403dc6432"
+                "reference": "a56e91e0fa1f6d0049153a9c34f63488f6b7ce61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/45832dfed6007b984c0d40addfac48d403dc6432",
-                "reference": "45832dfed6007b984c0d40addfac48d403dc6432",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/a56e91e0fa1f6d0049153a9c34f63488f6b7ce61",
+                "reference": "a56e91e0fa1f6d0049153a9c34f63488f6b7ce61",
                 "shasum": ""
             },
             "require": {
@@ -16848,7 +16840,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-13T14:44:46+00:00"
+            "time": "2020-10-17T21:33:03+00:00"
         },
         {
             "name": "league/container",
@@ -17919,10 +17911,10 @@
         },
         {
             "name": "npm-asset/bootstrap",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz"
+                "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.3.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -18122,20 +18114,20 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v9.99.99",
+            "version": "v9.99.100",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
                 "shasum": ""
             },
             "require": {
-                "php": "^7"
+                "php": ">= 7"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*|5.*",
@@ -18163,7 +18155,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-07-02T15:55:56+00:00"
+            "time": "2020-10-15T08:29:30+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -19393,16 +19385,16 @@
         },
         {
             "name": "solarium/solarium",
-            "version": "6.0.2",
+            "version": "6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solariumphp/solarium.git",
-                "reference": "556f06a8e712391f9a7b36978924d4eadc06e53a"
+                "reference": "80786c4e12db8062adac766b5f878ec652abe04e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/556f06a8e712391f9a7b36978924d4eadc06e53a",
-                "reference": "556f06a8e712391f9a7b36978924d4eadc06e53a",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/80786c4e12db8062adac766b5f878ec652abe04e",
+                "reference": "80786c4e12db8062adac766b5f878ec652abe04e",
                 "shasum": ""
             },
             "require": {
@@ -19411,7 +19403,7 @@
                 "psr/event-dispatcher": "^1.0",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.0",
-                "symfony/contracts": "^1.0 || ^2.0"
+                "symfony/event-dispatcher-contracts": "^1.0 || ^2.0"
             },
             "require-dev": {
                 "escapestudios/symfony2-coding-standard": "^3.11",
@@ -19448,7 +19440,7 @@
                 "search",
                 "solr"
             ],
-            "time": "2020-08-27T08:51:13+00:00"
+            "time": "2020-10-14T09:59:29+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
