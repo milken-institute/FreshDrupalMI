@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.158.19",
+            "version": "3.158.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b1c3c763e227e518768f0416cbd2b29c11f79561"
+                "reference": "25e4fe20837601adbf69921da2ef7d13ecf8932c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b1c3c763e227e518768f0416cbd2b29c11f79561",
-                "reference": "b1c3c763e227e518768f0416cbd2b29c11f79561",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/25e4fe20837601adbf69921da2ef7d13ecf8932c",
+                "reference": "25e4fe20837601adbf69921da2ef7d13ecf8932c",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-11-02T19:49:21+00:00"
+            "time": "2020-11-04T20:11:29+00:00"
         },
         {
             "name": "behat/behat",
@@ -3527,8 +3527,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-beta3+1-dev",
-                    "datestamp": "1595872388",
+                    "version": "8.x-3.0-beta2+6-dev",
+                    "datestamp": "1595624476",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -3688,10 +3688,6 @@
                     "homepage": "https://www.drupal.org/user/47194"
                 },
                 {
-                    "name": "bburg",
-                    "homepage": "https://www.drupal.org/user/1867900"
-                },
-                {
                     "name": "garethhallnz",
                     "homepage": "https://www.drupal.org/user/772766"
                 }
@@ -3818,10 +3814,6 @@
                 {
                     "name": "michaellander",
                     "homepage": "https://www.drupal.org/user/636494"
-                },
-                {
-                    "name": "paulocs",
-                    "homepage": "https://www.drupal.org/user/3640109"
                 }
             ],
             "description": "Provides a field that allows a content entity to create and configure custom block instances.",
@@ -5576,10 +5568,6 @@
                 {
                     "name": "mbm80",
                     "homepage": "https://www.drupal.org/user/3464809"
-                },
-                {
-                    "name": "mostepaniukvm",
-                    "homepage": "https://www.drupal.org/user/3440017"
                 }
             ],
             "description": "Render fields as custom elements.",
@@ -6181,7 +6169,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1600311980",
+                    "datestamp": "1600310561",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6248,14 +6236,14 @@
             "version": "2.3.0",
             "require": {
                 "drupal/core": "^8.8 || ^9",
-                "drupal/dropzonejs": "*",
+                "drupal/dropzonejs": "self.version",
                 "drupal/entity_browser": "*"
             },
             "type": "metapackage",
             "extra": {
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1600311980",
+                    "datestamp": "1600310561",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6572,8 +6560,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha13+3-dev",
-                    "datestamp": "1595293837",
+                    "version": "8.x-2.0-alpha13+2-dev",
+                    "datestamp": "1594469445",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7122,7 +7110,7 @@
             "version": "2.5.0",
             "require": {
                 "drupal/core": "^8.7.7 || ^9",
-                "drupal/entity_browser": "*",
+                "drupal/entity_browser": "self.version",
                 "drupal/inline_entity_form": "*"
             },
             "type": "metapackage",
@@ -7767,8 +7755,8 @@
                     "version": "8.x-1.0",
                     "datestamp": "1568102885",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 },
                 "composer-exit-on-patch-failure": true,
@@ -7823,8 +7811,8 @@
                     "homepage": "https://www.drupal.org/user/1885838"
                 },
                 {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
+                    "name": "dasjo",
+                    "homepage": "https://www.drupal.org/user/228295"
                 }
             ],
             "description": "Facets Pretty Paths module.",
@@ -8693,7 +8681,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.0-rc1",
-                    "datestamp": "1599664432",
+                    "datestamp": "1599664364",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -9124,8 +9112,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.15+7-dev",
-                    "datestamp": "1598170450",
+                    "version": "8.x-3.15+6-dev",
+                    "datestamp": "1597911880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9256,10 +9244,6 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
-                {
-                    "name": "jefuri",
-                    "homepage": "https://www.drupal.org/user/2733365"
-                },
                 {
                     "name": "kirkkala",
                     "homepage": "https://www.drupal.org/user/390806"
@@ -9849,7 +9833,7 @@
                     "datestamp": "1594929046",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -10429,13 +10413,13 @@
                 "shasum": "9bf9f1517ad015d0c93ca1460e284c557624aa90"
             },
             "require": {
-                "drupal/core": "^8.7.7 || ^9",
+                "drupal/core": "^8 || ^9",
                 "drupal/token": "^1.0"
             },
             "require-dev": {
                 "drupal/metatag_dc": "*",
                 "drupal/metatag_open_graph": "*",
-                "drupal/page_manager": "*",
+                "drupal/page_manager": "4.x-dev",
                 "drupal/panelizer": "4.x-dev",
                 "drupal/redirect": "1.x-dev"
             },
@@ -11759,10 +11743,6 @@
             ],
             "authors": [
                 {
-                    "name": "bbrala",
-                    "homepage": "https://www.drupal.org/user/3366066"
-                },
-                {
                     "name": "casey",
                     "homepage": "https://www.drupal.org/user/32403"
                 }
@@ -11994,10 +11974,6 @@
                 {
                     "name": "theapi",
                     "homepage": "https://www.drupal.org/user/883708"
-                },
-                {
-                    "name": "vansebroeck",
-                    "homepage": "https://www.drupal.org/user/1092052"
                 }
             ],
             "description": "Extends Inline Entity Form to add support for Paragraphs",
@@ -12361,10 +12337,6 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
-                {
-                    "name": "Meenakshi.g",
-                    "homepage": "https://www.drupal.org/user/3533675"
-                },
                 {
                     "name": "imclean",
                     "homepage": "https://www.drupal.org/user/112588"
@@ -13820,8 +13792,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha3+1-dev",
-                    "datestamp": "1594203981",
+                    "version": "8.x-1.0-alpha2+16-dev",
+                    "datestamp": "1561928286",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -13935,7 +13907,7 @@
                 "shasum": "c7e3a3757282e4c94e3c1fff08d01e22155cb853"
             },
             "require": {
-                "drupal/core": "^8.7.7 || ^9"
+                "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -14719,10 +14691,6 @@
                 {
                     "name": "mrded",
                     "homepage": "https://www.drupal.org/user/556088"
-                },
-                {
-                    "name": "shelane",
-                    "homepage": "https://www.drupal.org/user/2674989"
                 }
             ],
             "description": "Allows for different styles to be used in views to work with Bootstrap 4 components.",
