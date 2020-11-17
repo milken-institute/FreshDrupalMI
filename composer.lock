@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.161.0",
+            "version": "3.161.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "93f237f55463035896dbe298c9100b2438a87193"
+                "reference": "2703896142f292058ce9d6c9026a9329a89778e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/93f237f55463035896dbe298c9100b2438a87193",
-                "reference": "93f237f55463035896dbe298c9100b2438a87193",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2703896142f292058ce9d6c9026a9329a89778e0",
+                "reference": "2703896142f292058ce9d6c9026a9329a89778e0",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-11-12T19:25:24+00:00"
+            "time": "2020-11-16T19:11:59+00:00"
         },
         {
             "name": "behat/behat",
@@ -8172,7 +8172,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fontawesome.git",
-                "reference": "f0d6d29a019e9a38c623d71d5123700c56182b27"
+                "reference": "30c75bca587842d44af5776a2d87f8d1890747f3"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -8183,8 +8183,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.17+10-dev",
-                    "datestamp": "1604417027",
+                    "version": "8.x-2.17+11-dev",
+                    "datestamp": "1604675778",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8224,7 +8224,7 @@
                 "source": "https://git.drupalcode.org/project/fontawesome",
                 "issues": "https://drupal.org/project/issues/fontawesome"
             },
-            "time": "2020-11-06T15:17:00+00:00"
+            "time": "2020-11-06T19:22:55+00:00"
         },
         {
             "name": "drupal/form_options_attributes",
@@ -8334,7 +8334,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "2521380470b210308184d2faf118dbef285909b0"
+                "reference": "1b1bcfc8913f878255ebf7c95812927c7453e9fd"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -8346,8 +8346,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha27+27-dev",
-                    "datestamp": "1604867586",
+                    "version": "8.x-3.0-alpha29+1-dev",
+                    "datestamp": "1605394894",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8388,7 +8388,7 @@
                     "url": "https://paypal.me/saschaeggi"
                 }
             ],
-            "time": "2020-11-11T08:29:01+00:00"
+            "time": "2020-11-14T23:01:15+00:00"
         },
         {
             "name": "drupal/gin_login",
@@ -8459,7 +8459,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin_toolbar.git",
-                "reference": "d92a23be7c49f5b98e92a21dd642dad828394f83"
+                "reference": "84d7ff5d117d0497b496ba75e27f031726fc5ca5"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -8508,7 +8508,7 @@
                     "url": "https://paypal.me/saschaeggi"
                 }
             ],
-            "time": "2020-11-06T12:22:42+00:00"
+            "time": "2020-11-13T17:24:42+00:00"
         },
         {
             "name": "drupal/graphql",
@@ -11350,17 +11350,17 @@
         },
         {
             "name": "drupal/openid_connect",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/openid_connect.git",
-                "reference": "8.x-1.0-rc1"
+                "reference": "8.x-1.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/openid_connect-8.x-1.0-rc1.zip",
-                "reference": "8.x-1.0-rc1",
-                "shasum": "326e9de7200f74025b5bc061ebed6b5447aa6082"
+                "url": "https://ftp.drupal.org/files/projects/openid_connect-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "63dd96ba839fa6c4af7c555c3bc72791c6f9960d"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -11369,8 +11369,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1599584288",
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1605558489",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -11671,17 +11671,17 @@
         },
         {
             "name": "drupal/paragraphs_browser",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/paragraphs_browser.git",
-                "reference": "8.x-1.0-beta2"
+                "reference": "8.x-1.0-rc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs_browser-8.x-1.0-beta2.zip",
-                "reference": "8.x-1.0-beta2",
-                "shasum": "5698c8bc7f77aa8a49932bf8f4062cedcf090fe2"
+                "url": "https://ftp.drupal.org/files/projects/paragraphs_browser-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "a502ff44cdc709b306c2776a8aa96a9c1cb20a05"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -11690,11 +11690,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-beta2",
-                    "datestamp": "1603410750",
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1605564683",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -13617,17 +13617,17 @@
         },
         {
             "name": "drupal/taxonomy_access_fix",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/taxonomy_access_fix.git",
-                "reference": "8.x-3.0"
+                "reference": "8.x-3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/taxonomy_access_fix-8.x-3.0.zip",
-                "reference": "8.x-3.0",
-                "shasum": "2593a337cb55cf9df939bb73bbb1c6733ff46b71"
+                "url": "https://ftp.drupal.org/files/projects/taxonomy_access_fix-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "bc455a2b9cec94f1615d2761883bf516dc623a19"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -13635,8 +13635,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.0",
-                    "datestamp": "1593187909",
+                    "version": "8.x-3.1",
+                    "datestamp": "1605457888",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -15156,28 +15156,28 @@
         },
         {
             "name": "drupal/warmer",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/warmer.git",
-                "reference": "2.0.1"
+                "reference": "2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/warmer-2.0.1.zip",
-                "reference": "2.0.1",
-                "shasum": "53ed96a4e53595b7c5d6fbb8b98ea5d8ecf89403"
+                "url": "https://ftp.drupal.org/files/projects/warmer-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "826e4977c47dd8279b693d03ef19c2d1b61c392a"
             },
             "require": {
-                "drupal/core": "^8 || ^9",
+                "drupal/core": "^8.8 || ^9.0",
                 "php": ">=5.6.0",
                 "vipnytt/sitemapparser": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.1",
-                    "datestamp": "1596006695",
+                    "version": "2.0.2",
+                    "datestamp": "1605389303",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -15903,16 +15903,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.23",
+            "version": "2.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df"
+                "reference": "ca90a3291eee1538cd48ff25163240695bd95448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
-                "reference": "5fa792ad1853ae2bc60528dd3e5cbf4542d3c1df",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ca90a3291eee1538cd48ff25163240695bd95448",
+                "reference": "ca90a3291eee1538cd48ff25163240695bd95448",
                 "shasum": ""
             },
             "require": {
@@ -15957,7 +15957,13 @@
                 "validation",
                 "validator"
             ],
-            "time": "2020-10-31T20:37:35+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/egulias",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-11-14T15:56:27+00:00"
         },
         {
             "name": "enyo/dropzone",
@@ -18128,16 +18134,16 @@
         },
         {
             "name": "myclabs/php-enum",
-            "version": "1.7.6",
+            "version": "1.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/php-enum.git",
-                "reference": "5f36467c7a87e20fbdc51e524fd8f9d1de80187c"
+                "reference": "d178027d1e679832db9f38248fcc7200647dc2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/5f36467c7a87e20fbdc51e524fd8f9d1de80187c",
-                "reference": "5f36467c7a87e20fbdc51e524fd8f9d1de80187c",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/d178027d1e679832db9f38248fcc7200647dc2b7",
+                "reference": "d178027d1e679832db9f38248fcc7200647dc2b7",
                 "shasum": ""
             },
             "require": {
@@ -18170,7 +18176,17 @@
             "keywords": [
                 "enum"
             ],
-            "time": "2020-02-14T08:15:52+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/mnapoli",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/php-enum",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-11-14T18:14:52+00:00"
         },
         {
             "name": "nette/finder",
@@ -23238,16 +23254,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5"
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/776f831124e9c62e1a2c601ecc52e776d8bb7220",
+                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220",
                 "shasum": ""
             },
             "require": {
@@ -23288,7 +23304,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-29T13:22:24+00:00"
+            "time": "2020-11-13T09:40:50+00:00"
         },
         {
             "name": "phar-io/manifest",
