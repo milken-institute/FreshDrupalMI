@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06ed8015a16548bedb6e432dd60662e7",
+    "content-hash": "9ac1117ebd4628bd3a4a6c1f09a876da",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.166.2",
+            "version": "3.168.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "fe0ec9235d07b0f51ec4396dce0dd639020ae1a7"
+                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fe0ec9235d07b0f51ec4396dce0dd639020ae1a7",
-                "reference": "fe0ec9235d07b0f51ec4396dce0dd639020ae1a7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/842621099b1de31ec6efd7535b8b343397c6e0ec",
+                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.166.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.168.0"
             },
-            "time": "2020-12-04T19:12:30+00:00"
+            "time": "2020-12-08T19:17:21+00:00"
         },
         {
             "name": "behat/behat",
@@ -1981,22 +1981,22 @@
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v0.7.0",
+            "version": "v0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
-                "reference": "e8d808670b8f882188368faaf1144448c169c0b7"
+                "reference": "fe390591e0241955f22eb9ba327d137e501c771c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/e8d808670b8f882188368faaf1144448c169c0b7",
-                "reference": "e8d808670b8f882188368faaf1144448c169c0b7",
+                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/fe390591e0241955f22eb9ba327d137e501c771c",
+                "reference": "fe390591e0241955f22eb9ba327d137e501c771c",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
                 "php": ">=5.3",
-                "squizlabs/php_codesniffer": "^2 || ^3 || 4.0.x-dev"
+                "squizlabs/php_codesniffer": "^2.0 || ^3.0 || ^4.0"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -2047,7 +2047,7 @@
                 "issues": "https://github.com/dealerdirect/phpcodesniffer-composer-installer/issues",
                 "source": "https://github.com/dealerdirect/phpcodesniffer-composer-installer"
             },
-            "time": "2020-06-25T14:57:39+00:00"
+            "time": "2020-12-07T18:04:37+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -4375,6 +4375,50 @@
             "homepage": "https://www.drupal.org/project/content_sync",
             "support": {
                 "source": "https://git.drupalcode.org/project/content_sync"
+            }
+        },
+        {
+            "name": "drupal/convert_bundles",
+            "version": "1.0.0-alpha6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/convert_bundles.git",
+                "reference": "8.x-1.0-alpha6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/convert_bundles-8.x-1.0-alpha6.zip",
+                "reference": "8.x-1.0-alpha6",
+                "shasum": "b9267bead6d0f811afd3980496d93bb798682561"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha6",
+                    "datestamp": "1599049244",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "el1_1el",
+                    "homepage": "https://www.drupal.org/user/1795292"
+                }
+            ],
+            "description": "Convert entity bundles from one value to another",
+            "homepage": "https://www.drupal.org/project/convert_bundles",
+            "support": {
+                "source": "https://git.drupalcode.org/project/convert_bundles"
             }
         },
         {
@@ -7703,7 +7747,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "6f897af42ab6b627376e79f134c26db476ccf916"
+                "reference": "afd546a0fd1ac8d91c21183e5f7df2681a50b580"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -7715,8 +7759,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha31+2-dev",
-                    "datestamp": "1607213185",
+                    "version": "8.x-3.0-alpha31+6-dev",
+                    "datestamp": "1607369788",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7835,8 +7879,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta12+6-dev",
-                    "datestamp": "1604665383",
+                    "version": "8.x-1.0-beta13+1-dev",
+                    "datestamp": "1605288300",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9236,17 +9280,17 @@
         },
         {
             "name": "drupal/layout_paragraphs",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_paragraphs.git",
-                "reference": "1.0.0-beta3"
+                "reference": "1.0.0-beta4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_paragraphs-1.0.0-beta3.zip",
-                "reference": "1.0.0-beta3",
-                "shasum": "121b47cd3c96b1578f268e7da41ba9abe678472a"
+                "url": "https://ftp.drupal.org/files/projects/layout_paragraphs-1.0.0-beta4.zip",
+                "reference": "1.0.0-beta4",
+                "shasum": "571cf9cc276b1c1035a1a58ebec6869ecf0db654"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -9255,8 +9299,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-beta3",
-                    "datestamp": "1594929046",
+                    "version": "1.0.0-beta4",
+                    "datestamp": "1607441986",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -24183,6 +24227,7 @@
         "drupal/business_rules": 10,
         "drupal/component": 10,
         "drupal/content_browser": 15,
+        "drupal/convert_bundles": 15,
         "drupal/ctools": 20,
         "drupal/custom_elements": 10,
         "drupal/default_content": 20,
