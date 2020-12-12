@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.168.2",
+            "version": "3.168.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1d6a976da857d13b156bd63613ee086c13f6dc29"
+                "reference": "49ef1f905388c8185012c9651b80941b8f2a218d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1d6a976da857d13b156bd63613ee086c13f6dc29",
-                "reference": "1d6a976da857d13b156bd63613ee086c13f6dc29",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/49ef1f905388c8185012c9651b80941b8f2a218d",
+                "reference": "49ef1f905388c8185012c9651b80941b8f2a218d",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.168.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.168.3"
             },
-            "time": "2020-12-10T19:35:18+00:00"
+            "time": "2020-12-11T19:12:18+00:00"
         },
         {
             "name": "behat/behat",
@@ -7357,7 +7357,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/graphql.git",
-                "reference": "47bd0ddafc2bc6f0177ff0b3e75d64890610f086"
+                "reference": "35c14e6f6db59b4ceb229320b690059bcd0dec92"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -7374,8 +7374,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.0-beta3+12-dev",
-                    "datestamp": "1606548247",
+                    "version": "8.x-4.0+0-dev",
+                    "datestamp": "1607692348",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
