@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.168.2",
+            "version": "3.168.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1d6a976da857d13b156bd63613ee086c13f6dc29"
+                "reference": "49ef1f905388c8185012c9651b80941b8f2a218d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1d6a976da857d13b156bd63613ee086c13f6dc29",
-                "reference": "1d6a976da857d13b156bd63613ee086c13f6dc29",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/49ef1f905388c8185012c9651b80941b8f2a218d",
+                "reference": "49ef1f905388c8185012c9651b80941b8f2a218d",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.168.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.168.3"
             },
-            "time": "2020-12-10T19:35:18+00:00"
+            "time": "2020-12-11T19:12:18+00:00"
         },
         {
             "name": "behat/behat",
@@ -7180,7 +7180,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "c4ce1dfc4def0704fb85b8045dc744fe877b7c79"
+                "reference": "9ea1504d20c9fb954cbef627ea65e9f58e4147b8"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -7192,8 +7192,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha31+6-dev",
-                    "datestamp": "1607369788",
+                    "version": "8.x-3.0-alpha32+4-dev",
+                    "datestamp": "1607781056",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7357,7 +7357,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/graphql.git",
-                "reference": "47bd0ddafc2bc6f0177ff0b3e75d64890610f086"
+                "reference": "35c14e6f6db59b4ceb229320b690059bcd0dec92"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -7374,8 +7374,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.0-beta3+12-dev",
-                    "datestamp": "1606548247",
+                    "version": "8.x-4.0+0-dev",
+                    "datestamp": "1607692348",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -16394,7 +16394,7 @@
                 "issues": "https://github.com/object-calisthenics/phpcs-calisthenics-rules/issues",
                 "source": "https://github.com/object-calisthenics/phpcs-calisthenics-rules/tree/master"
             },
-            "abandoned": "symplify/coding-standard",
+            "abandoned": "symplify/phpstan-rules",
             "time": "2020-09-08T10:18:44+00:00"
         },
         {
@@ -16892,16 +16892,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.42",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "7c43b7c2d5ca6554f6231e82e342a710163ac5f4"
+                "reference": "6a07d59a9579cb82489a6e3bae3a57457ece485c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7c43b7c2d5ca6554f6231e82e342a710163ac5f4",
-                "reference": "7c43b7c2d5ca6554f6231e82e342a710163ac5f4",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/6a07d59a9579cb82489a6e3bae3a57457ece485c",
+                "reference": "6a07d59a9579cb82489a6e3bae3a57457ece485c",
                 "shasum": ""
             },
             "require": {
@@ -16910,6 +16910,7 @@
             "conflict": {
                 "phpstan/phpstan-shim": "*"
             },
+            "default-branch": true,
             "bin": [
                 "phpstan",
                 "phpstan.phar"
@@ -16948,35 +16949,31 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-02T13:14:53+00:00"
+            "time": "2020-12-13T14:06:57+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
-            "version": "0.12.5",
+            "version": "0.12.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
-                "reference": "bfabc6a1b4617fbcbff43f03a4c04eae9bafae21"
+                "reference": "46dbd43c2db973d2876d6653e53f5c2cc3a01fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/bfabc6a1b4617fbcbff43f03a4c04eae9bafae21",
-                "reference": "bfabc6a1b4617fbcbff43f03a4c04eae9bafae21",
+                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/46dbd43c2db973d2876d6653e53f5c2cc3a01fbb",
+                "reference": "46dbd43c2db973d2876d6653e53f5c2cc3a01fbb",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0",
-                "phpstan/phpstan": "^0.12.26"
+                "phpstan/phpstan": "^0.12.60"
             },
             "require-dev": {
-                "consistence/coding-standard": "^3.0.1",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "ergebnis/composer-normalize": "^2.0.2",
-                "jakub-onderka/php-parallel-lint": "^1.0",
-                "phing/phing": "^2.16.0",
+                "phing/phing": "^2.16.3",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpstan/phpstan-phpunit": "^0.12",
-                "phpunit/phpunit": "^7.0",
-                "slevomat/coding-standard": "^4.5.2"
+                "phpunit/phpunit": "^7.5.20"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -17001,9 +16998,9 @@
             "description": "PHPStan rules for detecting usage of deprecated classes, methods, properties, constants and traits.",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-deprecation-rules/issues",
-                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/0.12.5"
+                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/0.12.6"
             },
-            "time": "2020-07-21T14:52:30+00:00"
+            "time": "2020-12-13T10:20:54+00:00"
         },
         {
             "name": "psr/container",
@@ -17558,16 +17555,16 @@
         },
         {
             "name": "sirbrillig/phpcs-variable-analysis",
-            "version": "v2.10.0",
+            "version": "v2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
-                "reference": "50486555fae72a6401ad0337d0b71fd9e775b2f2"
+                "reference": "c6716a98fe7bee25d31306e14fb62c3ffa16d70a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/50486555fae72a6401ad0337d0b71fd9e775b2f2",
-                "reference": "50486555fae72a6401ad0337d0b71fd9e775b2f2",
+                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/c6716a98fe7bee25d31306e14fb62c3ffa16d70a",
+                "reference": "c6716a98fe7bee25d31306e14fb62c3ffa16d70a",
                 "shasum": ""
             },
             "require": {
@@ -17607,7 +17604,7 @@
                 "source": "https://github.com/sirbrillig/phpcs-variable-analysis",
                 "wiki": "https://github.com/sirbrillig/phpcs-variable-analysis/wiki"
             },
-            "time": "2020-11-23T17:43:05+00:00"
+            "time": "2020-12-12T18:28:57+00:00"
         },
         {
             "name": "slevomat/coding-standard",
@@ -21327,16 +21324,16 @@
         },
         {
             "name": "phar-io/version",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phar-io/version.git",
-                "reference": "726c026815142e4f8677b7cb7f2249c9ffb7ecae"
+                "reference": "e4782611070e50613683d2b9a57730e9a3ba5451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/version/zipball/726c026815142e4f8677b7cb7f2249c9ffb7ecae",
-                "reference": "726c026815142e4f8677b7cb7f2249c9ffb7ecae",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/e4782611070e50613683d2b9a57730e9a3ba5451",
+                "reference": "e4782611070e50613683d2b9a57730e9a3ba5451",
                 "shasum": ""
             },
             "require": {
@@ -21372,9 +21369,9 @@
             "description": "Library for handling version information and constraints",
             "support": {
                 "issues": "https://github.com/phar-io/version/issues",
-                "source": "https://github.com/phar-io/version/tree/3.0.3"
+                "source": "https://github.com/phar-io/version/tree/3.0.4"
             },
-            "time": "2020-11-30T09:21:21+00:00"
+            "time": "2020-12-13T23:18:30+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -22726,25 +22723,25 @@
         },
         {
             "name": "textalk/websocket",
-            "version": "1.4.3",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Textalk/websocket-php.git",
-                "reference": "6bc13b277bbca67ee1d697dd74e279da1c2df9ca"
+                "reference": "ded6832b99f378ea7869c978fdc731c261c37a2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/6bc13b277bbca67ee1d697dd74e279da1c2df9ca",
-                "reference": "6bc13b277bbca67ee1d697dd74e279da1c2df9ca",
+                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/ded6832b99f378ea7869c978fdc731c261c37a2e",
+                "reference": "ded6832b99f378ea7869c978fdc731c261c37a2e",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1",
+                "php": "^7.2 | ^8.0",
                 "psr/log": "^1.0"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.0",
-                "phpunit/phpunit": "^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^8.0|^9.0",
                 "squizlabs/php_codesniffer": "^3.5"
             },
             "type": "library",
@@ -22769,9 +22766,9 @@
             "description": "WebSocket client and server",
             "support": {
                 "issues": "https://github.com/Textalk/websocket-php/issues",
-                "source": "https://github.com/Textalk/websocket-php/tree/1.4.3"
+                "source": "https://github.com/Textalk/websocket-php/tree/1.5.0"
             },
-            "time": "2020-12-05T10:11:34+00:00"
+            "time": "2020-12-13T12:20:28+00:00"
         },
         {
             "name": "theseer/tokenizer",
