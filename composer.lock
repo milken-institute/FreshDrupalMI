@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.171.16",
+            "version": "3.171.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "216ff33ce238c30cf793973262ea727f2ce41224"
+                "reference": "f23f4871eceec8c92645f054186a83bba86c1f3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/216ff33ce238c30cf793973262ea727f2ce41224",
-                "reference": "216ff33ce238c30cf793973262ea727f2ce41224",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f23f4871eceec8c92645f054186a83bba86c1f3e",
+                "reference": "f23f4871eceec8c92645f054186a83bba86c1f3e",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.171.16"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.171.17"
             },
-            "time": "2021-01-12T19:12:49+00:00"
+            "time": "2021-01-13T19:17:33+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -11328,38 +11328,57 @@
         },
         {
             "name": "drupal/viewsreference",
-            "version": "2.0.0-beta2",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/viewsreference.git",
-                "reference": "8.x-2.0-beta2"
+                "reference": "8.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/viewsreference-8.x-2.0-beta2.zip",
-                "reference": "8.x-2.0-beta2",
-                "shasum": "146bf8c68e6cbb3805b4368b508d43931fe77c67"
+                "url": "https://ftp.drupal.org/files/projects/viewsreference-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "6656c717cd78bee180fcc075d28db016fa7775d9"
             },
             "require": {
-                "drupal/core": "^8 || ^9"
+                "drupal/core": "^8.6|^9.0",
+                "php": "^5.5|^7.0",
+                "squizlabs/php_codesniffer": "*"
             },
             "conflict": {
                 "drupal/viewsreferennce": "*"
             },
+            "require-dev": {
+                "composer/installers": "^1.2",
+                "drupal-composer/drupal-scaffold": "^2.5",
+                "drupal/coder": "^8.2",
+                "webflo/drupal-core-require-dev": "~8.5"
+            },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0-beta2",
-                    "datestamp": "1597243219",
+                    "version": "8.x-1.7",
+                    "datestamp": "1610571201",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "installer-paths": {
+                    "../build/core": [
+                        "type:drupal-core"
+                    ],
+                    "../build/modules/contrib/{$name}": [
+                        "type:drupal-module"
+                    ],
+                    "../build/themes/contrib/{$name}": [
+                        "type:drupal-theme"
+                    ]
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -11379,14 +11398,14 @@
                     "homepage": "https://www.drupal.org/user/545912"
                 }
             ],
-            "description": "Views reference",
+            "description": "Views Reference",
             "homepage": "http://drupal.org/project/viewsreference",
             "keywords": [
                 "Drupal"
             ],
             "support": {
-                "source": "https://git.drupalcode.org/project/viewsreference",
-                "issues": "https://www.drupal.org/project/issues/viewsreference"
+                "source": "http://cgit.drupalcode.org/viewsreference",
+                "issues": "http://drupal.org/project/issues/viewsreference"
             }
         },
         {
