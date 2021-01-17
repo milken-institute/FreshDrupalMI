@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f2ecad4dc4635857520f3e07bbfb939",
+    "content-hash": "cf4316554f4f4574e11b04bf432d9935",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.171.18",
+            "version": "3.171.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9252e55e995492a65ec9b705a5a7fdcfcaef46ef"
+                "reference": "e786e4a8b2ec85b258833d0570ff6b61348cbdb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9252e55e995492a65ec9b705a5a7fdcfcaef46ef",
-                "reference": "9252e55e995492a65ec9b705a5a7fdcfcaef46ef",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e786e4a8b2ec85b258833d0570ff6b61348cbdb6",
+                "reference": "e786e4a8b2ec85b258833d0570ff6b61348cbdb6",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.171.18"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.171.19"
             },
-            "time": "2021-01-14T19:12:48+00:00"
+            "time": "2021-01-15T19:26:11+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -4811,17 +4811,17 @@
         },
         {
             "name": "drupal/dropzonejs",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dropzonejs.git",
-                "reference": "8.x-2.3"
+                "reference": "8.x-2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/dropzonejs-8.x-2.3.zip",
-                "reference": "8.x-2.3",
-                "shasum": "c145f2560ed31de32ea8938b0c0378765f70e36a"
+                "url": "https://ftp.drupal.org/files/projects/dropzonejs-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "182e41163753bac785ad56d7d157cbe50706d706"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -4835,8 +4835,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.3",
-                    "datestamp": "1600311980",
+                    "version": "8.x-2.4",
+                    "datestamp": "1610726518",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4900,7 +4900,7 @@
         },
         {
             "name": "drupal/dropzonejs_eb_widget",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "require": {
                 "drupal/core": "^8.8 || ^9",
                 "drupal/dropzonejs": "*",
@@ -4909,8 +4909,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.3",
-                    "datestamp": "1600311980",
+                    "version": "8.x-2.4",
+                    "datestamp": "1610726518",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4955,7 +4955,7 @@
                     "homepage": "https://www.drupal.org/user/888644"
                 }
             ],
-            "description": "DropzoneJS Entity browser widget",
+            "description": "DropzoneJS Entity browser widget.",
             "homepage": "https://www.drupal.org/project/dropzonejs",
             "support": {
                 "source": "https://git.drupalcode.org/project/dropzonejs"
@@ -6421,7 +6421,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "e065d97a26a04d1c396a2cbc602648f6fc02fa57"
+                "reference": "c588b364455b46c27c4c56269348cb84d4788e71"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -6433,8 +6433,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha32+8-dev",
-                    "datestamp": "1610099713",
+                    "version": "8.x-3.0-alpha32+10-dev",
+                    "datestamp": "1610716270",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6598,7 +6598,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/graphql.git",
-                "reference": "fdadd90a2716c4b7f5c55ac84011e2d4b4732fa1"
+                "reference": "da66c944996a5ddbc9e38a3bf925e43ed39b350f"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -6615,8 +6615,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.0+14-dev",
-                    "datestamp": "1609173595",
+                    "version": "8.x-4.0+15-dev",
+                    "datestamp": "1610444809",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -14366,6 +14366,18 @@
             },
             "require": {
                 "npm-asset/desandro-matches-selector": ">=2.0.0,<3.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/fontawesome",
+            "version": "5.6.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/fontawesome/-/fontawesome-5.6.3.tgz"
             },
             "type": "npm-asset",
             "license": [
