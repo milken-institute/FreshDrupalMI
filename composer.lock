@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.2",
+            "version": "3.173.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1ab4f565744aea8e9560ee8aaffb19b87238c7d5"
+                "reference": "b805c50f0338180e7328c7ad5bcb0aceae11a75a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1ab4f565744aea8e9560ee8aaffb19b87238c7d5",
-                "reference": "1ab4f565744aea8e9560ee8aaffb19b87238c7d5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b805c50f0338180e7328c7ad5bcb0aceae11a75a",
+                "reference": "b805c50f0338180e7328c7ad5bcb0aceae11a75a",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.3"
             },
-            "time": "2021-02-03T21:12:51+00:00"
+            "time": "2021-02-04T21:45:53+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -6262,7 +6262,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fontawesome.git",
-                "reference": "1dc3870388f2ec27571503d831279ac4ad7f682c"
+                "reference": "5c0f34a31e866920ec1c0dcf9c8dc21984a755dd"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -6273,8 +6273,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.17+12-dev",
-                    "datestamp": "1605545377",
+                    "version": "8.x-2.17+13-dev",
+                    "datestamp": "1611172487",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6422,7 +6422,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "4ff396559f9f004b6aee7ec26a7e9b6754b4149f"
+                "reference": "4f1711673594fcd1cc09eec7a9d54d7e9c4bd7b6"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -6434,8 +6434,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha33+0-dev",
-                    "datestamp": "1611172679",
+                    "version": "8.x-3.0-alpha33+1-dev",
+                    "datestamp": "1612175293",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9611,17 +9611,17 @@
         },
         {
             "name": "drupal/s3fs_cors",
-            "version": "1.0.0-beta4",
+            "version": "1.0.0-beta5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/s3fs_cors.git",
-                "reference": "8.x-1.0-beta4"
+                "reference": "8.x-1.0-beta5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/s3fs_cors-8.x-1.0-beta4.zip",
-                "reference": "8.x-1.0-beta4",
-                "shasum": "50be2edade8293771cddb08d233c929acad888d6"
+                "url": "https://ftp.drupal.org/files/projects/s3fs_cors-8.x-1.0-beta5.zip",
+                "reference": "8.x-1.0-beta5",
+                "shasum": "5ce3f507f59faec35f5cb51f9c4ad6a690f4abb5"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -9631,8 +9631,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-beta4",
-                    "datestamp": "1590206722",
+                    "version": "8.x-1.0-beta5",
+                    "datestamp": "1612397478",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -11522,17 +11522,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.0.0",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.0.0"
+                "reference": "6.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.0.0.zip",
-                "reference": "6.0.0",
-                "shasum": "2528636c9e90fe1623544eee433f102faa0f1b57"
+                "url": "https://ftp.drupal.org/files/projects/webform-6.0.1.zip",
+                "reference": "6.0.1",
+                "shasum": "3ddc95895dcd446325432eae286910cd8e056da7"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -11580,8 +11580,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.0.0",
-                    "datestamp": "1608855845",
+                    "version": "6.0.1",
+                    "datestamp": "1612453373",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
