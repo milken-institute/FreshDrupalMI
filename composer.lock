@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.17",
+            "version": "3.173.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d3657af3d93285f4cb0f59dd94d065f59cf89cf5"
+                "reference": "0ac9f1d2778034a2ef0a2bb8e098818d7b1a76e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d3657af3d93285f4cb0f59dd94d065f59cf89cf5",
-                "reference": "d3657af3d93285f4cb0f59dd94d065f59cf89cf5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0ac9f1d2778034a2ef0a2bb8e098818d7b1a76e8",
+                "reference": "0ac9f1d2778034a2ef0a2bb8e098818d7b1a76e8",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.17"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.18"
             },
-            "time": "2021-02-25T19:13:34+00:00"
+            "time": "2021-02-26T19:12:35+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -4924,17 +4924,17 @@
         },
         {
             "name": "drupal/ds",
-            "version": "3.9.0",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ds.git",
-                "reference": "8.x-3.9"
+                "reference": "8.x-3.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.9.zip",
-                "reference": "8.x-3.9",
-                "shasum": "7b419763cd87c2b3f06313489500746705a46334"
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.10.zip",
+                "reference": "8.x-3.10",
+                "shasum": "c35b87ad8e96a3a893af197678ce34dfeea82f99"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -4946,8 +4946,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.9",
-                    "datestamp": "1598898821",
+                    "version": "8.x-3.10",
+                    "datestamp": "1614505794",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6333,7 +6333,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gatsby.git",
-                "reference": "a6979d01b468effdf5021141f276a984bb0066d4"
+                "reference": "3dcc7436198b98f1131734cd416f9e3b96b32bfd"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -6348,8 +6348,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc3+25-dev",
-                    "datestamp": "1614114640",
+                    "version": "8.x-1.0-rc3+26-dev",
+                    "datestamp": "1614115044",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
