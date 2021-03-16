@@ -1,0 +1,87 @@
+[
+    {
+        "type": [ "Press Release" ],
+        "first_name": "Freddy",
+        "last_name": "Abnousi",
+        "last_name_goes_first": false,
+        "job_title": "Head of Health Technology at Facebook",
+        "social_media": {
+            "facebook": "https://facebook.com/someone",
+            "linkedin": "https://linkedin.com/someone",
+            "twitter": "https://twitter.com/someone",
+            "instagram": "https://instagram.com/someone",
+            "youtube": "https://youtube.com/someone"
+        },
+        "image": "https://milkeninstitute.org/sites/default/files/Dr.%20Abnousi%20%281%29.jpg",
+        "link_uri": "https://milkeninstitute.org/centers/center-for-the-future-of-aging/advisory-board/leadership-council/freddy-abnousi",
+        "link_text": "Read More",
+        "publish_date": "December 10, 2020",
+        "tags": [ "Health", "Technology" ],
+        "departments": [ "Milken Institute", "Asia Center" ]
+    },
+    {
+        "type": [ "Press Release" ],
+        "first_name": "Natalie",
+        "last_name": "Black",
+        "last_name_goes_first": false,
+        "job_title": "Her Majesty's Trade Commissioner for Asia Pacific, United Kingdom",
+        "social_media": {
+        "linkedin": "https://linkedin.com/someone",
+        "twitter": "https://twitter.com/someone"
+        },
+        "image": "https://grid.milkeninstitute.org/events/speakers/W46583.jpg",
+        "link_uri": "https://archive.milkeninstitute.org/events/conferences/summit/asia-summit-2020/speaker-detail/46583",
+        "link_text": "Read More",
+        "publish_date": "December 10, 2020",
+        "tags": [ "Health", "Technology" ],
+        "departments": [ "Milken Institute", "Asia Center" ]
+    },
+    {
+        "type": [ "Press Release" ],
+        "first_name": "Jane Jie",
+        "last_name": "Sun",
+        "last_name_goes_first": true,
+        "job_title": "Senior Research Fellow, Institute of Policy Studies, National University of Singapore",
+        "social_media": {
+        },
+        "image": "https://grid.milkeninstitute.org/events/speakers/W46788.jpg",
+        "link_uri": "https://archive.milkeninstitute.org/events/conferences/summit/asia-summit-2020/speaker-detail/46788",
+        "link_text": "",
+        "publish_date": "December 10, 2020",
+        "tags": [ "Health", "Technology" ],
+        "departments": [ "Milken Institute", "Asia Center" ]
+    },
+    {
+        "type": [ "Press Release" ],
+        "first_name": "Oscar",
+        "last_name": "Fahlgren",
+        "last_name_goes_first": true,
+        "job_title": "Head of Brazil, Mubadala Investment Company",
+        "social_media": {
+            "facebook": "https://facebook.com/someone",
+            "linkedin": "https://linkedin.com/someone",
+            "youtube": "https://youtube.com/someone"
+        },
+        "image": "https://grid.milkeninstitute.org/events/speakers/W46763.jpg",
+        "link_uri": "https://archive.milkeninstitute.org/events/conferences/summit/asia-summit-2020/speaker-detail/46763",
+        "link_text": "",
+        "publish_date": "December 10, 2020",
+        "tags": [ "Health", "Technology" ],
+        "departments": [ "Milken Institute", "Asia Center" ]
+    },
+    {
+        "type": [ "Press Release" ],
+        "first_name": "Julie",
+        "last_name": "Ruvolo",
+        "last_name_goes_first": true,
+        "job_title": "Managing Director, Venture Capital, EMPEA",
+        "social_media": {
+        },
+        "image": "https://grid.milkeninstitute.org/events/speakers/W46916.jpg",
+        "link_uri": "https://archive.milkeninstitute.org/events/conferences/summit/asia-summit-2020/speaker-detail/46916",
+        "link_text": "Read More",
+        "publish_date": "December 10, 2020",
+        "tags": [ "Health", "Technology" ],
+        "departments": [ "Milken Institute", "Asia Center" ]
+    }
+]

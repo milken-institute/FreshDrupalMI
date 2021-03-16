@@ -2,10 +2,7 @@ import React from "react";
 import * as DataObject from "../../DataTypes/NodeArticle";
 import ArticleFull from "./ArticleFull";
 import ArticleCard from "./ArticleCard";
-import ArticleRow from "./ArticleRow";
 import ErrorBoundary from "../../Utility/ErrorBoundary";
-import FacetDisplay from "../FacetDisplay";
-
 
 export interface ArticleDisplayProps {
   data: DataObject.NodeArticleInterface;
@@ -14,7 +11,6 @@ export interface ArticleDisplayProps {
 
 export const ArticleDisplay = (props: ArticleDisplayProps) => {
   const { data, view_mode } = props;
-
   switch (view_mode) {
     case "card":
       return (
@@ -30,20 +26,10 @@ export const ArticleDisplay = (props: ArticleDisplayProps) => {
         </div>
       );
 
-    case "row":
-      return (
-        <ErrorBoundary>
-          <ArticleRow data={data} view_mode={view_mode} />
-        </ErrorBoundary>
-      );
-
     default:
       return (
         <ErrorBoundary>
-          {/* <TeamDisplay/> */}
-          {/* <NewsRoomDisplay/> */}
-          <FacetDisplay type={"node--article"} filterValue={"newsroom"} view_mode={"row"}/>
-          {/* <ArticleFull data={data} view_mode={view_mode} /> */}
+          <ArticleFull data={data} view_mode={view_mode} />
         </ErrorBoundary>
       );
   }

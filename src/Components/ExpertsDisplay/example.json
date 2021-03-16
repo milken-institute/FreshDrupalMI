@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Aron Betru",
+      "job_title": "Managing Director", 
+      "departments": ["Center for Financial Markets"], 
+      "tags": ["Finance"], 
+      "description": "A short summary about this person. <ul><li>Coffee</li><li>Tea</li><li>Milk</li></ul>",
+      "link_uri": "https://milkeninstitute.org/center-for-financial-markets/aron-betru",
+      "link_text": "View Profile",
+      "image": "https://milkeninstitute.org/sites/default/files/Betru%2C%20Aron.jpg"
+    },
+    {
+      "name": "LaTese Briggs, PhD",
+      "job_title": "Senior Director", 
+      "departments": ["Center for Strategic Philanthropy"], 
+      "tags": ["Philanthropy", "Medical Research"], 
+      "description": "A short summary about this person. <ul><li>Coffee</li><li>Tea</li><li>Milk</li></ul>",
+      "link_uri": "https://milkeninstitute.org/centers/center-for-strategic-philanthropy/team/latese-briggs",
+      "link_text": "View Profile",
+      "image": "https://milkeninstitute.org/sites/default/files/Briggs%2C%20Latese.jpg"
+    },
+    {
+      "name": "Dan Carol",
+      "job_title": "Director", 
+      "departments": ["Center for Financial Markets"], 
+      "tags": ["Finance"], 
+      "description": "A short summary about this person. <ul><li>Coffee</li><li>Tea</li><li>Milk</li></ul>",
+      "link_uri": "https://milkeninstitute.org/dan-carol",
+      "link_text": "View Profile",
+      "image": "https://milkeninstitute.org/sites/default/files/Carol-Daniel-lowres-min.jpg"
+    },
+    {
+      "name": "Eugene Cornelius, Jr.",
+      "job_title": "Senior Director", 
+      "departments": ["Center for Regional Economics", " California Center"], 
+      "tags": ["Economics", "California", "Policy and Regulation"], 
+      "description": "A short summary about this person. <ul><li>Coffee</li><li>Tea</li><li>Milk</li></ul>",
+      "link_uri": "https://milkeninstitute.org/centers/center-for-regional-economics/experts/eugene-cornelius",
+      "link_text": "View Profile",
+      "image": "https://milkeninstitute.org/sites/default/files/EUGENE_CORNELIUS-Headshot_650x650-min.jpg"
+    }  
+]
