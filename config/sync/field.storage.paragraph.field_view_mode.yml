@@ -21,6 +21,9 @@ settings:
       value: tile
       label: Tile
     -
+      value: row
+      label: Row
+    -
       value: list_item
       label: 'List Item'
     -

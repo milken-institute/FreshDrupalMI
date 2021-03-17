@@ -1,0 +1,23 @@
+uuid: 9a1da46b-1c61-4006-8467-fc48a007d9c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.facet_explorer
+  module:
+    - options
+id: paragraph.facet_explorer.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: facet_explorer
+label: 'View Mode'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: card
+default_value_callback: ''
+settings: {  }
+field_type: list_string

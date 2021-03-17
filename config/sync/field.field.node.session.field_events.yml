@@ -10,7 +10,7 @@ id: node.session.field_events
 field_name: field_events
 entity_type: node
 bundle: session
-label: Events
+label: 'Events Taxonomy'
 description: ''
 required: false
 translatable: true

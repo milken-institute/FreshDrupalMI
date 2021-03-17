@@ -7,13 +7,15 @@ import ErrorBoundary from "Utility/ErrorBoundary";
 import MediaDisplayImage from "Components/MediaDisplay/MediaDisplayImage";
 import NodeLandingPage from "DataTypes/NodeLandingPage";
 
-const CardOuter = styled.div`
+const CardOuter = styled.a`
   margin: 1em;
   width: 100%;
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
   }
   &:hover .card-title {
     color: var(--color-milken-orange) !important;
@@ -58,8 +60,9 @@ export const NodeDisplayLandingPageTile = (
   const { data, key } = props;
   return (
     <CardOuter
-      onClick={onClickHandler}
-      data-alias={data.path.alias}
+      // onClick={onClickHandler}
+      // data-alias={data.path.alias}
+      href={data.path.alias !== null ? data.path.alias : '/node/' + data.drupal_internal__nid}
       key={key}
       className="card border-0"
     >

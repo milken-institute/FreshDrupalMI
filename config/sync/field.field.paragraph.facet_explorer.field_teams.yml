@@ -1,0 +1,29 @@
+uuid: 3abb115c-1db5-47be-827f-5e8a08154fdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_teams
+    - paragraphs.paragraphs_type.facet_explorer
+    - taxonomy.vocabulary.teams
+id: paragraph.facet_explorer.field_teams
+field_name: field_teams
+entity_type: paragraph
+bundle: facet_explorer
+label: Teams
+description: 'Show anything belonging to a team'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      teams: teams
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

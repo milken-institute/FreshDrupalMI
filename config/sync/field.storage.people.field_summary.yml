@@ -1,0 +1,20 @@
+uuid: 54001f0e-92e2-46fa-8331-7aadcde0f4a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+id: people.field_summary
+field_name: field_summary
+entity_type: people
+type: text
+settings:
+  max_length: 1000
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

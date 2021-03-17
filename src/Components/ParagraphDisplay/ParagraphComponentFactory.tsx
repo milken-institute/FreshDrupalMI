@@ -2,6 +2,7 @@ import { ParagraphInterface } from "../../DataTypes/Paragraph";
 import ParagraphDisplayAuthor from "./ParagraphDisplayAuthor";
 import ParagraphDisplayBlock from "./ParagraphDisplayBlock";
 import ParagraphDisplayBodyContent from "./ParagraphDisplayBodyContent";
+import ParagraphDisplayFacetExplorer from "./ParagraphDisplayFacetExplorer";
 import ParagraphDisplayPeople from "./ParagraphDisplayPeople";
 import { ParagraphDisplayPodcastEpisode } from "./ParagraphDisplayPodcastEpisode";
 import ParagraphDisplayProgramDay from "./ParagraphDisplayProgramDay";
@@ -25,6 +26,8 @@ export const ParagraphComponentFactory = (incoming: ParagraphInterface) => {
       return ParagraphDisplayBlock;
     case "paragraph--body_content":
       return ParagraphDisplayBodyContent;
+    case "paragraph--facet_explorer":
+      return ParagraphDisplayFacetExplorer;
     case "paragraph--people":
       return ParagraphDisplayPeople;
     case "paragraph--podcast_episode":

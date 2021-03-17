@@ -1,0 +1,33 @@
+uuid: 97d3f098-3436-4d57-8e3e-d4b7cd29de68
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_items_per_page
+field_name: field_items_per_page
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '10'
+      label: '10'
+    -
+      value: '20'
+      label: '20'
+    -
+      value: '40'
+      label: '40'
+    -
+      value: '100'
+      label: '100'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

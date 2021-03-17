@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.article.field_promo_slide
     - field.field.node.article.field_region
     - field.field.node.article.field_summary
+    - field.field.node.article.field_tags
     - field.field.node.article.field_terms
     - field.field.node.article.field_topics
     - node.type.article
@@ -39,6 +40,7 @@ hidden:
   field_promotional_slide: true
   field_region: true
   field_summary: true
+  field_tags: true
   field_terms: true
   field_topics: true
   langcode: true

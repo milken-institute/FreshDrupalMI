@@ -36,6 +36,7 @@ export const ParagraphDisplay = (props: ParagraphDisplayProps) => {
       .then((res) => res.json())
       .then((remoteData) => {
         console.debug("ParagraphData", remoteData);
+        console.debug("GetIncluded()", paragraphData.getIncluded());
         const DataObject = ParagraphDataFactory(remoteData.data);
         setParagraphData(DataObject);
       });

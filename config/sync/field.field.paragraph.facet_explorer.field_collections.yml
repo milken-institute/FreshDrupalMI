@@ -1,0 +1,29 @@
+uuid: 1e16af56-9717-4947-93cf-3ffcb7e173b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_collections
+    - paragraphs.paragraphs_type.facet_explorer
+    - taxonomy.vocabulary.collections
+id: paragraph.facet_explorer.field_collections
+field_name: field_collections
+entity_type: paragraph
+bundle: facet_explorer
+label: Collections
+description: 'Show content belonging to a collection'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      collections: collections
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

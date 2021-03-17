@@ -1,0 +1,21 @@
+uuid: dcf9df2e-c3e9-426b-ad91-f50fc6a51766
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_summary
+  module:
+    - text
+id: people.staff.field_summary
+field_name: field_summary
+entity_type: people
+bundle: staff
+label: summary
+description: 'Short summary to display for this record. Simple HTML can be used.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

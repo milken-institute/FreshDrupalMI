@@ -1,0 +1,21 @@
+uuid: 596fb227-5dbd-4637-8bfc-c47d4606082c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_facet_content_type
+    - paragraphs.paragraphs_type.facet_explorer
+  module:
+    - options
+id: paragraph.facet_explorer.field_facet_content_type
+field_name: field_facet_content_type
+entity_type: paragraph
+bundle: facet_explorer
+label: 'Facet Content Type'
+description: 'Type of content to show'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

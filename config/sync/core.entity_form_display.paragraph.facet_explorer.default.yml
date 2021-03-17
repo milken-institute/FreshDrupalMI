@@ -1,0 +1,85 @@
+uuid: 77149fb9-15f6-47c5-b075-36e1110e0884
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.facet_explorer.field_collections
+    - field.field.paragraph.facet_explorer.field_facet_content_type
+    - field.field.paragraph.facet_explorer.field_items_per_page
+    - field.field.paragraph.facet_explorer.field_section_header
+    - field.field.paragraph.facet_explorer.field_sidebar_content
+    - field.field.paragraph.facet_explorer.field_teams
+    - field.field.paragraph.facet_explorer.field_view_mode
+    - paragraphs.paragraphs_type.facet_explorer
+  module:
+    - text
+id: paragraph.facet_explorer.default
+targetEntityType: paragraph
+bundle: facet_explorer
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_collections:
+    weight: -5
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_facet_content_type:
+    weight: -7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_items_per_page:
+    weight: -4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_section_header:
+    weight: -9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sidebar_content:
+    weight: -8
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_teams:
+    weight: -6
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_view_mode:
+    weight: -3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

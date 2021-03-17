@@ -1,0 +1,21 @@
+uuid: 830ffbbd-d0a3-45a6-b70b-afa185ff0e91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sidebar_content
+    - paragraphs.paragraphs_type.facet_explorer
+  module:
+    - text
+id: paragraph.facet_explorer.field_sidebar_content
+field_name: field_sidebar_content
+entity_type: paragraph
+bundle: facet_explorer
+label: 'Sidebar Content'
+description: 'Add some content to the bottom of the sidebar filters.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,12 @@
+uuid: 711e61ac-3b23-4fed-8f18-43a3923dd591
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:7f7ee522-cbca-4858-bec4-b7e7b54f05a8'
+id: facet_explorer
+label: 'Facet Explorer'
+icon_uuid: 7f7ee522-cbca-4858-bec4-b7e7b54f05a8
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICAgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItbGF5b3V0Ij48cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiByeT0iMiI+PC9yZWN0PjxsaW5lIHgxPSIzIiB5MT0iOSIgeDI9IjIxIiB5Mj0iOSI+PC9saW5lPjxsaW5lIHgxPSI5IiB5MT0iMjEiIHgyPSI5IiB5Mj0iOSI+PC9saW5lPjwvc3ZnPg=='
+description: 'Create a dynamic filter explorer such as Experts & Newsroom'
+behavior_plugins: {  }
