@@ -1,0 +1,21 @@
+uuid: 5f8aa5e1-e7ca-4fb0-98e9-812ac1c6c4a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_panel_end_time
+field_name: field_panel_end_time
+entity_type: panel
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

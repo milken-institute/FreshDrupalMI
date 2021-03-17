@@ -1,0 +1,9 @@
+uuid: a77efd92-f39a-4155-b32a-f901a607f851
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.panel
+type: panel_speakers
+name: 'Panel Speakers'
+description: 'Links Speakers to a given Panel'

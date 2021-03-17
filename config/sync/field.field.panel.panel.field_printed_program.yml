@@ -1,0 +1,23 @@
+uuid: db372502-2db2-48d4-839c-6f0e8f1b2dff
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_printed_program
+id: panel.panel.field_printed_program
+field_name: field_printed_program
+entity_type: panel
+bundle: panel
+label: 'Printed Program'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

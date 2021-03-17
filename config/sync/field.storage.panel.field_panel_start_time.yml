@@ -1,0 +1,21 @@
+uuid: d5929fb8-915e-41df-bdad-af8ca8e471af
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_panel_start_time
+field_name: field_panel_start_time
+entity_type: panel
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

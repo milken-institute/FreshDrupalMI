@@ -13,7 +13,13 @@ dependencies:
     - field.field.panel.panel.field_grid_event_id
     - field.field.panel.panel.field_links
     - field.field.panel.panel.field_panel_alt_text
+    - field.field.panel.panel.field_panel_end_time
+    - field.field.panel.panel.field_panel_id
+    - field.field.panel.panel.field_panel_start_time
+    - field.field.panel.panel.field_panel_title
+    - field.field.panel.panel.field_printed_program
     - field.field.panel.panel.field_private
+    - field.field.panel.panel.field_publish
     - field.field.panel.panel.field_regions
     - field.field.panel.panel.field_room
     - field.field.panel.panel.field_sess
@@ -22,7 +28,6 @@ dependencies:
     - field.field.panel.panel.field_tags
     - field.field.panel.panel.field_topics
     - field.field.panel.panel.field_tracks
-    - field.field.panel.panel.field_why
   module:
     - datetime_range
     - field_group
@@ -187,8 +192,54 @@ content:
     third_party_settings: {  }
     type: string_textarea
     region: content
+  field_panel_end_time:
+    weight: 33
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_panel_id:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_panel_start_time:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_panel_title:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_printed_program:
+    weight: 34
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
   field_private:
     weight: 23
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_publish:
+    weight: 35
     settings:
       display_label: true
     third_party_settings: {  }
@@ -267,14 +318,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
-    region: content
-  field_why:
-    weight: 20
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
     region: content
   langcode:
     type: language_select

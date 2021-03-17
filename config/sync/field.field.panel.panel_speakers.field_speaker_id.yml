@@ -1,0 +1,19 @@
+uuid: 33360a84-96f1-4211-99a0-1e43f0cbcd0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel_speakers
+    - field.storage.panel.field_speaker_id
+id: panel.panel_speakers.field_speaker_id
+field_name: field_speaker_id
+entity_type: panel
+bundle: panel_speakers
+label: 'Speaker ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

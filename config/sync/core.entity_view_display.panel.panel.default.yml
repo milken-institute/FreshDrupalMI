@@ -13,7 +13,13 @@ dependencies:
     - field.field.panel.panel.field_grid_event_id
     - field.field.panel.panel.field_links
     - field.field.panel.panel.field_panel_alt_text
+    - field.field.panel.panel.field_panel_end_time
+    - field.field.panel.panel.field_panel_id
+    - field.field.panel.panel.field_panel_start_time
+    - field.field.panel.panel.field_panel_title
+    - field.field.panel.panel.field_printed_program
     - field.field.panel.panel.field_private
+    - field.field.panel.panel.field_publish
     - field.field.panel.panel.field_regions
     - field.field.panel.panel.field_room
     - field.field.panel.panel.field_sess
@@ -22,7 +28,6 @@ dependencies:
     - field.field.panel.panel.field_tags
     - field.field.panel.panel.field_topics
     - field.field.panel.panel.field_tracks
-    - field.field.panel.panel.field_why
   module:
     - datetime_range
     - link
@@ -111,8 +116,60 @@ content:
     third_party_settings: {  }
     type: basic_string
     region: content
+  field_panel_end_time:
+    weight: 23
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_panel_id:
+    weight: 20
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_panel_start_time:
+    weight: 22
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_panel_title:
+    weight: 21
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_printed_program:
+    weight: 24
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
   field_private:
     weight: 13
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_publish:
+    weight: 25
     label: above
     settings:
       format: default
@@ -183,13 +240,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
-  field_why:
-    weight: 10
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
     region: content
   title:
     label: hidden

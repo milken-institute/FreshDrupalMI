@@ -1,0 +1,23 @@
+uuid: e5421944-96ed-45fb-b99f-fd58f118b14c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_publish
+id: panel.panel.field_publish
+field_name: field_publish
+entity_type: panel
+bundle: panel
+label: publish
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

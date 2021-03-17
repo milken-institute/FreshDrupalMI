@@ -1,0 +1,18 @@
+uuid: 7074616d-3703-4111-bff3-dd124c19f5ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_printed_program
+field_name: field_printed_program
+entity_type: panel
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

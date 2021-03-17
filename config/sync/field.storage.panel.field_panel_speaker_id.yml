@@ -1,14 +1,16 @@
-uuid: b5d9b29f-8c06-4e4e-83d5-2206d36b7369
+uuid: 01f25abe-a491-4515-86b6-312de4234ff3
 langcode: en
 status: true
 dependencies:
   module:
     - eck
-id: panel.field_why
-field_name: field_why
+id: panel.field_panel_speaker_id
+field_name: field_panel_speaker_id
 entity_type: panel
-type: string_long
+type: string
 settings:
+  max_length: 255
+  is_ascii: false
   case_sensitive: false
 module: core
 locked: false
