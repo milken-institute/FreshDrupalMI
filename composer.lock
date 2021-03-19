@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.174.0",
+            "version": "3.174.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b3ddabdcbbc2340c5312446f3a2109342974b020"
+                "reference": "d58a350b23810a3930f432364af2d7589cf672b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b3ddabdcbbc2340c5312446f3a2109342974b020",
-                "reference": "b3ddabdcbbc2340c5312446f3a2109342974b020",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d58a350b23810a3930f432364af2d7589cf672b3",
+                "reference": "d58a350b23810a3930f432364af2d7589cf672b3",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.174.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.174.3"
             },
-            "time": "2021-03-15T18:17:20+00:00"
+            "time": "2021-03-18T18:16:53+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -4928,17 +4928,17 @@
         },
         {
             "name": "drupal/ds",
-            "version": "3.10.0",
+            "version": "3.12.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ds.git",
-                "reference": "8.x-3.10"
+                "reference": "8.x-3.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.10.zip",
-                "reference": "8.x-3.10",
-                "shasum": "c35b87ad8e96a3a893af197678ce34dfeea82f99"
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.12.zip",
+                "reference": "8.x-3.12",
+                "shasum": "0df49ccc28af94186a6c08aa4233f435c539b273"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -4950,8 +4950,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.10",
-                    "datestamp": "1614505794",
+                    "version": "8.x-3.12",
+                    "datestamp": "1615995335",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6234,7 +6234,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fontawesome.git",
-                "reference": "7281b9acdc6f61e81f584701c53b54056fef20e6"
+                "reference": "da0827fab6e76e1eaba7e3300e7c0120ffe4d94e"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -6245,8 +6245,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.18+1-dev",
-                    "datestamp": "1615234290",
+                    "version": "8.x-2.18+3-dev",
+                    "datestamp": "1616085311",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6337,7 +6337,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gatsby.git",
-                "reference": "22c47335cd8cf9de855758c94b8880e5db5d1af8"
+                "reference": "e7b27cce2277375377f9f28ce6881522e9063647"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -6353,8 +6353,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc3+31-dev",
-                    "datestamp": "1615798307",
+                    "version": "8.x-1.0-rc3+36-dev",
+                    "datestamp": "1615876218",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6407,7 +6407,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "282263ec189666e1a29cff6c30d2279e1db3cb74"
+                "reference": "b5185d9e45c37edecc58fd4464a30fcfaea6044a"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -6419,8 +6419,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha33+9-dev",
-                    "datestamp": "1615134016",
+                    "version": "8.x-3.0-alpha33+13-dev",
+                    "datestamp": "1616001507",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6816,29 +6816,37 @@
         },
         {
             "name": "drupal/image_style_warmer",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/image_style_warmer.git",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/image_style_warmer-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "e33d15a9aadd4f1fbffc8fe555d16674b511d33b"
+                "url": "https://ftp.drupal.org/files/projects/image_style_warmer-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "b05b911281e6d45df0a7735cfa9f8816f9d6233a"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
             },
+            "require-dev": {
+                "drush/drush": "^9.0 || ^10"
+            },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1604921765",
+                    "version": "8.x-1.1",
+                    "datestamp": "1616082948",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
                     }
                 }
             },
@@ -11198,17 +11206,17 @@
         },
         {
             "name": "drupal/views_bulk_operations",
-            "version": "3.10.0",
+            "version": "3.11.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_bulk_operations.git",
-                "reference": "8.x-3.10"
+                "reference": "8.x-3.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_bulk_operations-8.x-3.10.zip",
-                "reference": "8.x-3.10",
-                "shasum": "e346c2a72fc9a1ae8af418e6a02076f52c0fcc7b"
+                "url": "https://ftp.drupal.org/files/projects/views_bulk_operations-8.x-3.11.zip",
+                "reference": "8.x-3.11",
+                "shasum": "14519811dac1661957066a0de6c455228e634ce7"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -11222,8 +11230,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.10",
-                    "datestamp": "1608795018",
+                    "version": "8.x-3.11",
+                    "datestamp": "1615996407",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -12918,16 +12926,16 @@
         },
         {
             "name": "laminas/laminas-feed",
-            "version": "2.13.1",
+            "version": "2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-feed.git",
-                "reference": "45d36702d09afd5d8ca01192ecd3b5afaf37126b"
+                "reference": "85cf475aa76c10b8c12134873100f592251456a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/45d36702d09afd5d8ca01192ecd3b5afaf37126b",
-                "reference": "45d36702d09afd5d8ca01192ecd3b5afaf37126b",
+                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/85cf475aa76c10b8c12134873100f592251456a6",
+                "reference": "85cf475aa76c10b8c12134873100f592251456a6",
                 "shasum": ""
             },
             "require": {
@@ -12994,7 +13002,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-01-04T19:20:24+00:00"
+            "time": "2021-03-16T16:01:42+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
@@ -15658,16 +15666,16 @@
         },
         {
             "name": "sirbrillig/phpcs-variable-analysis",
-            "version": "v2.10.2",
+            "version": "v2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
-                "reference": "0775e0c683badad52c03b11c2cd86a9fdecb937a"
+                "reference": "e76e816236f401458dd8e16beecab905861b5867"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/0775e0c683badad52c03b11c2cd86a9fdecb937a",
-                "reference": "0775e0c683badad52c03b11c2cd86a9fdecb937a",
+                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/e76e816236f401458dd8e16beecab905861b5867",
+                "reference": "e76e816236f401458dd8e16beecab905861b5867",
                 "shasum": ""
             },
             "require": {
@@ -15707,7 +15715,7 @@
                 "source": "https://github.com/sirbrillig/phpcs-variable-analysis",
                 "wiki": "https://github.com/sirbrillig/phpcs-variable-analysis/wiki"
             },
-            "time": "2021-01-08T16:31:05+00:00"
+            "time": "2021-03-09T22:32:14+00:00"
         },
         {
             "name": "slevomat/coding-standard",
