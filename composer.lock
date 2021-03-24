@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.175.0",
+            "version": "3.175.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "31baa9e0c4330f01eb74b8a7ef086e9d34f8391e"
+                "reference": "a8e88eac60b403ed76643327e74f55831570a64b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/31baa9e0c4330f01eb74b8a7ef086e9d34f8391e",
-                "reference": "31baa9e0c4330f01eb74b8a7ef086e9d34f8391e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a8e88eac60b403ed76643327e74f55831570a64b",
+                "reference": "a8e88eac60b403ed76643327e74f55831570a64b",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.175.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.175.2"
             },
-            "time": "2021-03-19T18:13:22+00:00"
+            "time": "2021-03-23T18:18:49+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -6337,7 +6337,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gatsby.git",
-                "reference": "e7b27cce2277375377f9f28ce6881522e9063647"
+                "reference": "9cca73c01c9025d684e1cff659822150d1ab2232"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -6353,8 +6353,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc3+36-dev",
-                    "datestamp": "1615876218",
+                    "version": "8.x-1.0-rc3+38-dev",
+                    "datestamp": "1616446893",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6407,7 +6407,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "45e6dfef4a61ea263a75569a40698f38d5316376"
+                "reference": "3880e6f28a0bc055692557aab54876c4937a1b08"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -6419,8 +6419,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-alpha33+20-dev",
-                    "datestamp": "1616256981",
+                    "version": "8.x-3.0-alpha33+21-dev",
+                    "datestamp": "1616257334",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
