@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.176.0",
+            "version": "3.176.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0713d48ba190cf49486e1cd95cd2def25ef4c80e"
+                "reference": "cfd62d9d159df12e8e1fc3c486e0a010a4c39f80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0713d48ba190cf49486e1cd95cd2def25ef4c80e",
-                "reference": "0713d48ba190cf49486e1cd95cd2def25ef4c80e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cfd62d9d159df12e8e1fc3c486e0a010a4c39f80",
+                "reference": "cfd62d9d159df12e8e1fc3c486e0a010a4c39f80",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.2"
             },
-            "time": "2021-03-25T18:17:15+00:00"
+            "time": "2021-03-26T18:16:22+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -9494,7 +9494,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/restui.git",
-                "reference": "7f410c09c2a1df2ace78bef250088d5d9010241e"
+                "reference": "3d4e9a6f93ec3beee41027e4a774ffb623539e76"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -9505,8 +9505,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.18+3-dev",
-                    "datestamp": "1606480582",
+                    "version": "8.x-1.19+1-dev",
+                    "datestamp": "1616839338",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -10584,17 +10584,17 @@
         },
         {
             "name": "drupal/svg_image_field",
-            "version": "2.0.0-beta1",
+            "version": "2.0.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/svg_image_field.git",
-                "reference": "2.0.0-beta1"
+                "reference": "2.0.0-rc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/svg_image_field-2.0.0-beta1.zip",
-                "reference": "2.0.0-beta1",
-                "shasum": "c61025f103cffa3c69216cbb30db977e242ef66f"
+                "url": "https://ftp.drupal.org/files/projects/svg_image_field-2.0.0-rc1.zip",
+                "reference": "2.0.0-rc1",
+                "shasum": "0be6ee8201cdfcec9e864532e07241ea98b026d1"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -10602,11 +10602,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0-beta1",
-                    "datestamp": "1605983108",
+                    "version": "2.0.0-rc1",
+                    "datestamp": "1616874087",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -13381,22 +13381,22 @@
         },
         {
             "name": "league/csv",
-            "version": "9.6.2",
+            "version": "9.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e"
+                "reference": "4cacd9c72c4aa8bdbef43315b2ca25c46a0f833f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f28da6e483bf979bac10e2add384c90ae9983e4e",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/4cacd9c72c4aa8bdbef43315b2ca25c46a0f833f",
+                "reference": "4cacd9c72c4aa8bdbef43315b2ca25c46a0f833f",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2.5"
+                "php": "^7.3 || ^8.0"
             },
             "require-dev": {
                 "ext-curl": "*",
@@ -13405,7 +13405,7 @@
                 "phpstan/phpstan": "^0.12.0",
                 "phpstan/phpstan-phpunit": "^0.12.0",
                 "phpstan/phpstan-strict-rules": "^0.12.0",
-                "phpunit/phpunit": "^8.5"
+                "phpunit/phpunit": "^9.5"
             },
             "suggest": {
                 "ext-dom": "Required to use the XMLConverter and or the HTMLConverter classes",
@@ -13461,7 +13461,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-10T19:40:30+00:00"
+            "time": "2021-03-26T22:08:10+00:00"
         },
         {
             "name": "league/event",
