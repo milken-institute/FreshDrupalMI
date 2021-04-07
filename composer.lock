@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.176.7",
+            "version": "3.176.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "734dd0535f8e70ebb59be37f522af4e45d006ace"
+                "reference": "17dc67514b148979994758fbfb54088a8a3393bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/734dd0535f8e70ebb59be37f522af4e45d006ace",
-                "reference": "734dd0535f8e70ebb59be37f522af4e45d006ace",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/17dc67514b148979994758fbfb54088a8a3393bf",
+                "reference": "17dc67514b148979994758fbfb54088a8a3393bf",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.176.9"
             },
-            "time": "2021-04-02T18:16:40+00:00"
+            "time": "2021-04-06T18:13:47+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -208,16 +208,16 @@
         },
         {
             "name": "caxy/php-htmldiff",
-            "version": "v0.1.11",
+            "version": "v0.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caxy/php-htmldiff.git",
-                "reference": "6bc1c4ad59587027b09bf50c0e086b0f45d86c86"
+                "reference": "7fb8aa0ad77864f1d3604ae4a31af9cbabb91485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/6bc1c4ad59587027b09bf50c0e086b0f45d86c86",
-                "reference": "6bc1c4ad59587027b09bf50c0e086b0f45d86c86",
+                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/7fb8aa0ad77864f1d3604ae4a31af9cbabb91485",
+                "reference": "7fb8aa0ad77864f1d3604ae4a31af9cbabb91485",
                 "shasum": ""
             },
             "require": {
@@ -263,9 +263,9 @@
             ],
             "support": {
                 "issues": "https://github.com/caxy/php-htmldiff/issues",
-                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.11"
+                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.12"
             },
-            "time": "2021-02-02T11:07:36+00:00"
+            "time": "2021-04-05T21:19:33+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -12250,16 +12250,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.0.0-beta.1",
+            "version": "v3.0.0-beta.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "1a7f4c80778dc8f9f3ce5cf410b2034f10c54e65"
+                "reference": "9225f5d06f5c3ee24b89348cd3dff69c9b3c1ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/1a7f4c80778dc8f9f3ce5cf410b2034f10c54e65",
-                "reference": "1a7f4c80778dc8f9f3ce5cf410b2034f10c54e65",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/9225f5d06f5c3ee24b89348cd3dff69c9b3c1ede",
+                "reference": "9225f5d06f5c3ee24b89348cd3dff69c9b3c1ede",
                 "shasum": ""
             },
             "require": {
@@ -12326,7 +12326,7 @@
             "description": "A tool to automatically fix PHP code style",
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
-                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.0.0-beta.1"
+                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.0.0-beta.2"
             },
             "funding": [
                 {
@@ -12334,7 +12334,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-20T17:09:51+00:00"
+            "time": "2021-04-06T18:43:43+00:00"
         },
         {
             "name": "galbar/jsonpath",
