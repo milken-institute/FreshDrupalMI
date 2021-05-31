@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+  echo "This script takes one argument: the environment on which "
+  echo "the migration will run: live, dev or test"
+  echo "rerun this script like so: > bin/migrateGrid live"
+  exit 1;
+fi
+
+terminus drush freshdrupalmi.$1 -- migrate:import grid_event --update
+terminus drush freshdrupalmi.$1 -- migrate:import panels --update
+terminus drush freshdrupalmi.$1 -- migrate:import grid_panel_speakers --update
+terminus drush freshdrupalmi.$1 -- migrate:import grid_panel_tracks --update
+terminus drush freshdrupalmi.$1 -- migrate:import grid_speakers --update
+terminus drush freshdrupalmi.$1 -- migrate:import grid_tracks --update

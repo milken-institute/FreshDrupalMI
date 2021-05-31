@@ -7,6 +7,7 @@ namespace Drupal\milken_migrate\Commands;
 use Drupal;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\field\Entity\FieldConfig;
+use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\milken_migrate\Utility\RemoteRecord;
 use Drupal\milken_migrate\Utility\RemoteRecordsList;
 use Drush\Commands\DrushCommands;
@@ -197,7 +198,8 @@ class MilkenMigrateCommands extends DrushCommands
               'target_id' => $image->id(),
             ];
             $episodeRemoteRecord = RemoteRecord::getRemoteRecord('paragraph', "podcast_episode", $episode->uuid() . "?jsonapi_include=true&include=field_podcast_image");
-            $imageRemoteRecord = @array_shift($episodeRemoteRecord->getField('field_podcast_image'));
+            $array = $episodeRemoteRecord->getField('field_podcast_image');
+            $imageRemoteRecord = @array_shift($array);
             if (!empty($imageRemoteRecord)) {
               $personNamesArray = explode(" ", trim($imageRemoteRecord['field_photo_subject_name']));
 
@@ -382,8 +384,7 @@ class MilkenMigrateCommands extends DrushCommands
    */
   public function migrateMetaTags(
     $source, $destination
-  )
-  {
+  ) {
     @[$sourceEntity, $sourceBundle, $sourceField, $uuid] = explode(":", $source);
     [$destinationEntity, $destinationBundle, $destinationField] = explode(":", $destination);
     $remoteList = new RemoteRecordsList($sourceEntity, $sourceBundle);
@@ -419,21 +420,69 @@ class MilkenMigrateCommands extends DrushCommands
   }
 
 
-    /**
-     * @param $done
-     * @param $total
-     */
-    protected
-    function progressBar($done, $total)
-    {
-      $perc = floor(($done / $total) * 100);
-      $left = 100 - $perc;
-      return sprintf(
-        "\033[0G\033[2K[%'={$perc}s>%-{$left}s] - $perc%% - $done/$total",
-        "",
-        ""
-      );
+  /**
+   * @param $done
+   * @param $total
+   */
+  protected
+  function progressBar($done, $total)
+  {
+    $perc = floor(($done / $total) * 100);
+    $left = 100 - $perc;
+    return sprintf(
+      "\033[0G\033[2K[%'={$perc}s>%-{$left}s] - $perc%% - $done/$total",
+      "",
+      ""
+    );
+  }
 
+  /**
+   * Migrate a single event from Grid export.
+   *
+   * @usage drush milken_migrate:author_relations
+   *   'https://www.milkeninstitute.org/jsonapi/node/article?include=field_ar_author'
+   *   field_ar_author node field_authors -v
+   *
+   * @description
+   * Ensure an event and all its details are migrated with the most recent data.
+   *
+   * @command milken_migrate:migrate_grid_event
+   * @aliases mgrid
+   *
+   * @param string $eventID
+   *   The grid_event_id of the event in question.
+   */
+  public function migrateGridEvent(string $eventID)
+  {
+    $manager = Drupal::service('plugin.manager.migration');
+    $migration_ids = ['grid_event'];
+    foreach ($migration_ids as $migration_id) {
+      $migration = $manager->createInstance($migration_id);
+      if ($migration instanceof Drupal\migrate\Plugin\Migration) {
+        $migration->setStatus(MigrationInterface::STATUS_IDLE);
+        $migration->getIdMap()->prepareUpdate();
+        $source = $migration->getSourcePlugin();
+        if ($source instanceof Drupal\migrate_plus\Plugin\migrate\source\Url) {
+          $source->getDataParserPlugin()->singleton($eventID);
+          $executable = new Drupal\migrate\MigrateExecutable($migration);
+          try {
+            // Run the migration.
+            $executable->import();
+          }
+          catch (\Exception $e) {
+            $migration->setStatus(MigrationInterface::STATUS_IDLE);
+          }
+        }
+      }
     }
+    //drush migrate:import grid_event --update
+    //drush migrate:import panels --update
+    //drush migrate:import grid_panel_speakers --update
+    //drush migrate:import grid_panel_tracks --update
+    //drush migrate:import grid_speakers --update
+    //drush migrate:import grid_tracks --update
+    //drush php:eval 'milken_migrate_update_grid_panel()'
 
   }
+
+}

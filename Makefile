@@ -52,7 +52,7 @@ install-centos8-nodjs-and-npm:
 	&& sudo dnf -y module reset nodejs \
 	&& sudo dnf -y module enable nodejs:14 \
 	&& sudo dnf -y install npm \
-	&& node -v && npm -v 
+	&& node -v && npm -v
 
 run: ## run the docker containers for a development environment
 	make run-docker
@@ -88,7 +88,7 @@ upgrade-npm:  ## Run npm upgrade && npm audit fix
 	npm upgrade
 	npm audit fix
 
-run-clone-restore:
+run-clone-restore:  ## Restore the database if you know you have a recent copy
 	# This makes the assumption that you are running a development version
 	# with the supplied docker-compose.
 	$(shell pv "./db/${BACKUP_FILE_NAME}" | gunzip | mysql -u root --password=${MYSQL_ROOT_PASSWORD} --host 127.0.0.1 --port 33067 --protocol tcp ${DB_NAME}) > /dev/null

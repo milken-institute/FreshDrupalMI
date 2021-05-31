@@ -54,18 +54,25 @@ use Drupal\migrate_plus\DataParserPluginBase;
 class Jsonapi extends DataParserPluginBase implements ContainerFactoryPluginInterface {
 
   /**
-   * Iterator over the JSON data.
+   * Is this for a single record?
    *
-   * @var \Iterator
+   * @var string
    */
-  protected $dataIterator;
+  protected ?string $singleton = NULL;
 
   /**
    * Iterator over the JSON data.
    *
    * @var \Iterator
    */
-  protected $includedIterator;
+  protected \Iterator $dataIterator;
+
+  /**
+   * Iterator over the JSON data.
+   *
+   * @var \Iterator
+   */
+  protected \Iterator $includedIterator;
 
   /**
    * Config Factory.
@@ -146,6 +153,9 @@ class Jsonapi extends DataParserPluginBase implements ContainerFactoryPluginInte
    * @throws \GuzzleHttp\Exception\RequestException
    */
   protected function getSource($url) {
+    if ($this->singleton !== NULL) {
+      $url .= $this->singleton;
+    }
     if (isset($this->configuration['jsonapi_include']) && $this->configuration['jsonapi_include'] === TRUE) {
       $conjunction = (strpos($url, "?") === FALSE) ? "?" : "&";
       $url .= $conjunction . "jsonapi_include=true";
@@ -156,12 +166,12 @@ class Jsonapi extends DataParserPluginBase implements ContainerFactoryPluginInte
 
     $response = $this->getDataFetcherPlugin()->getResponseContent($url);
     // Convert objects to associative arrays.
-    $source = json_decode($response, TRUE);
+    $source = json_decode($response, TRUE, 512, JSON_THROW_ON_ERROR);
     // If json_decode() has returned NULL, it might be that the data isn't
     // valid utf8 - see http://php.net/manual/en/function.json-decode.php#86997.
     if (is_null($source)) {
       $utf8response = utf8_encode($response);
-      $source = json_decode($utf8response, TRUE);
+      $source = json_decode($utf8response, TRUE, 512, JSON_THROW_ON_ERROR);
     }
 
     return $source;
@@ -179,8 +189,13 @@ class Jsonapi extends DataParserPluginBase implements ContainerFactoryPluginInte
    * @throws \GuzzleHttp\Exception\RequestException
    */
   protected function getSourceData($source) {
+    if (!isset($source['data'])) {
+      throw new \Exception(print_r($source));
+    }
+    if ($this->singleton !== NULL) {
+      return [$source['data']];
+    }
     $data = [];
-
     $selectors = explode('/', trim('data/', '/'));
     foreach ($selectors as $selector) {
       if (!empty($selector)) {
@@ -419,6 +434,13 @@ class Jsonapi extends DataParserPluginBase implements ContainerFactoryPluginInte
    */
   public function getConfiguration() {
     return $this->configuration;
+  }
+
+  /**
+   * For importing a single Event record.
+   */
+  public function singleton(string $id) {
+    $this->singleton = $id;
   }
 
 }

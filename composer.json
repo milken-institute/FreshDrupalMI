@@ -256,14 +256,14 @@
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "prepare-for-pantheon": "DrupalProject\\composer\\ScriptHandler::prepareForPantheon",
         "post-install-cmd": [
-            "bash scripts/setup-precommit.sh",
+            "php scripts/setup-precommit.sh",
             "cp -R web/libraries/bootstrap/dist/* web/libraries/bootstrap",
             "@drupal-scaffold",
             "@install-codestandards",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
-            "bash scripts/setup-precommit.sh",
+            "php scripts/setup-precommit.sh",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
             "@install-codestandards"
         ],
